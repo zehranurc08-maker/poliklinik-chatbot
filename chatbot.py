@@ -1,97 +1,138 @@
-import streamlit as st  
-import pandas as pd  
-import google.generativeai as genai  
-import chromadb  
-import os  
+import streamlit as st
+import pandas as pd
+import google.generativeai as genai
+import chromadb
+import os # Veritabanı klasörünün varlığını kontrol etmek için eklendi
 
 # --- SAYFA YAPILANDIRMASI ---
-
 st.set_page_config(
-    page_title="Poliklinik Öneri Chatbotu",  # Tarayıcı sekmesinde görünecek başlık
-    page_icon="🏥",                          # Tarayıcı sekmesinde görünecek ikon 
-    layout="centered"                        # İçeriğin sayfanın ortasında hizalanmasını sağlar
+    page_title="Poliklinik Öneri Chatbotu",
+    page_icon="🏥",
+    layout="centered"
 )
 
 # --- API ANAHTARI VE MODELLERİN YAPILANDIRILMASI ---
 try:
-     # Streamlit'in "Secrets" özelliğini kullanarak API anahtarını güvenli bir şekilde sakladık
-    # Proje klasöründe .streamlit/secrets.toml dosyası oluşturup içine API_KEY = "..." yazmalısınız.
-    # Bu yöntem, API anahtarınızın kod içinde görünmesini ve paylaşılmasını engeller.
+    # Streamlit Cloud'un "Secrets" bölümünden API anahtarını al
     API_KEY = st.secrets["API_KEY"]
     
-    # Google AI servisini, aldığımız API anahtarı ile yapılandırırız.
     genai.configure(api_key=API_KEY)
-    
-    # Embedding için kullanılacak modelin adını belirliyoruz.
-    
     embedding_model = 'models/text-embedding-004'
-    
-    # Cevap üretmek için kullanılacak üretken YZ modelini (Gemini Flash) başlatıyoruz.
-    generation_model = genai.GenerativeModel('gemini-2.5-flash')
-
+    generation_model = genai.GenerativeModel('gemini-1.5-flash') # 1.5-flash daha yaygın, 2.5-flash yerine bunu kullanabiliriz
 except Exception as e:
-    # Eğer try bloğunda (örn. API anahtarı bulunamazsa) bir hata oluşursa:
-    # Ekrana bir hata mesajı basarız.
     st.error(f"❌ HATA: API anahtarı yapılandırılamadı. Lütfen anahtarınızı kontrol edin. Detay: {e}")
-    # st.stop() komutu, programın geri kalanının çalışmasını durdurur.
     st.stop()
 
+# --- VERİTABANI YÜKLEME VE KURULUMU (CACHE İLE) ---
+# Bu @st.cache_resource, fonksiyonun sadece bir kez (ilk çalıştırmada) çalışmasını sağlar,
+# böylece her kullanıcı sorgusunda veritabanını yeniden oluşturmaz.
+@st.cache_resource
+def setup_database():
+    DB_PATH = "chroma_db"
+    
+    # 1. Veritabanı zaten var mı diye kontrol et
+    if os.path.exists(DB_PATH):
+        st.info("Mevcut veritabanı yükleniyor...")
+        try:
+            client = chromadb.PersistentClient(path=DB_PATH)
+            collection = client.get_collection("poliklinikler")
+            st.success("✅ Veritabanı başarıyla yüklendi.")
+            return collection
+        except Exception as e:
+            st.warning(f"Veritabanı bulundu ancak yüklenemedi: {e}. Yeniden oluşturulacak.")
+            # Eğer klasör var ama içi bozuksa, yeniden oluşturmaya izin ver
+
+    # 2. Veritabanı yoksa veya bozuksa, oluştur
+    st.warning("Veritabanı bulunamadı. Yeni veritabanı oluşturuluyor...")
+    st.info("Bu işlem (sadece ilk çalıştırmada) birkaç dakika sürebilir.")
+    
+    try:
+        # Veri setini oku
+        df = pd.read_csv("semptom_veri_seti.csv")
+        
+        # Chroma client'ı başlat
+        client = chromadb.PersistentClient(path=DB_PATH)
+        collection = client.get_or_create_collection("poliklinikler")
+
+        documents = []
+        embeddings = []
+        metadatas = []
+        ids = []
+        
+        # Streamlit'te ilerleme çubuğu göster
+        progress_bar = st.progress(0, text="Embedding'ler oluşturuluyor...")
+
+        for i, row in df.iterrows():
+            semptom = row['semptom']
+            poliklinik = row['poliklinik']
+            
+            if not isinstance(semptom, str) or not semptom.strip():
+                continue
+
+            embedding = genai.embed_content(
+                model=embedding_model,
+                content=semptom,
+                task_type="RETRIEVAL_DOCUMENT"
+            )['embedding']
+            
+            documents.append(semptom)
+            embeddings.append(embedding)
+            metadatas.append({'poliklinik': poliklinik})
+            ids.append(str(i))
+            
+            # İlerleme çubuğunu güncelle
+            progress_bar.progress((i + 1) / len(df), text=f"Semptom {i+1}/{len(df)} işleniyor...")
+
+        # Toplu ekleme
+        collection.add(
+            embeddings=embeddings,
+            documents=documents,
+            metadatas=metadatas,
+            ids=ids
+        )
+        
+        progress_bar.empty() # İlerleme çubuğunu kaldır
+        st.success(f"✅ Yeni veritabanı başarıyla oluşturuldu ve {len(documents)} semptom eklendi.")
+        return collection
+
+    except Exception as e:
+        st.error(f"❌ HATA: Veritabanı oluşturulurken bir sorun çıktı: {e}")
+        st.stop()
+
 # --- CHROMA VERİTABANINA BAĞLANMA ---
+# (Eski bağlantı kodunun yerini bu yeni fonksiyon alıyor)
 try:
-    # 'chroma_db' klasöründe bulunan kalıcı veritabanına bağlanıyoruz.
-    client = chromadb.PersistentClient(path="chroma_db")
-    
-    # Veritabanı içindeki 'poliklinikler' adlı koleksiyonu çekiyoruz.
-    # Tüm verilerimiz bu koleksiyon içinde saklanır.
-    collection = client.get_collection("poliklinikler")
-    
+    # Veritabanını yükle veya oluştur
+    collection = setup_database() 
 except Exception as e:
-    # Eğer veritabanı bağlantısında (örn. 'chroma_db' klasörü yoksa) bir hata olursa:
-    st.error(f"❌ HATA: ChromaDB veritabanına bağlanılamadı. 'chroma_db' klasörünün olduğundan emin olun.")
-    st.info("💡 İpucu: Veritabanını oluşturmak için bir önceki kod versiyonunu (veritabanı oluşturma kodu) bir kez çalıştırmanız gerekebilir.")
-    st.stop() 
+    st.error(f"❌ HATA: Veritabanı başlatılamadı. Detay: {e}")
+    st.stop()
 
 # --- FONKSİYONLAR ---
-
 def en_yakin_poliklinigi_bul(soru, top_n=3):
     """Kullanıcının sorusunu embedding'e çevirir ve veritabanında en benzer N sonucu arar."""
-    
-    # 1. Kullanıcının sorusunu bir embedding'e dönüştür.
     soru_embedding = genai.embed_content(
-        model=embedding_model,          # Hangi embedding modelini kullanacağımız
-        content=soru,                   # Hangi metni vektöre çevireceğimiz (kullanıcının sorusu)
-        task_type="RETRIEVAL_QUERY"     # Bu embedding'in bir arama sorgusu için olduğunu belirtir (daha iyi sonuçlar için optimizasyon sağlar)
-    )['embedding']                      # Dönen sonucun içinden sadece 'embedding' listesini alır.
+        model=embedding_model,
+        content=soru,
+        task_type="RETRIEVAL_QUERY"
+    )['embedding']
     
-    # 2. ChromaDB koleksiyonu içinde bu vektöre en çok benzeyen sonuçları ara.
     results = collection.query(
-        query_embeddings=[soru_embedding],  # Arama yapmak için kullanıcının soru vektörü
-        n_results=top_n                     # En benzer kaç sonucu getireceğini belirtir (varsayılan 3)
+        query_embeddings=[soru_embedding],
+        n_results=top_n
     )
-    
-    # 3. Bulunan sonuçları (dokümanlar, metadatalar, mesafeler) geri döndür.
     return results
 
 def cevap_uret(soru, bulunan_sonuclar):
-    """Bulunan sonuçları (context) ve kullanıcının sorusunu kullanarak Gemini ile bir cevap üretir."""
-    
-    # ChromaDB'den dönen sonuçları ayıklar.
-    # 'documents' aranan metne karşılık gelen semptom metinleridir.
+    """Bulunan sonuçları ve kullanıcının sorusunu kullanarak Gemini ile bir cevap üretir."""
     documents = bulunan_sonuclar['documents'][0]
-    # 'metadatas' o semptomlara bağlı poliklinik bilgileridir.
     metadatas = bulunan_sonuclar['metadatas'][0]
     
-    # Eğer 'documents' listesi boşsa, yani veritabanında hiçbir benzer sonuç bulunamamışsa:
     if not documents:
-        # Standart bir "bulunamadı" mesajı döndürür.
         return "Üzgünüm, belirttiğiniz şikayetlerle ilgili bir poliklinik önerisi bulamadım. Lütfen bir sağlık kuruluşuna danışın."
 
-    # Bulunan sonuçları (ilgili semptom ve poliklinik) modelin anlayacağı bir 'context' metnine dönüştürürüz.
-    # zip(documents, metadatas) -> (semptom1, poliklinik1), (semptom2, poliklinik2)... eşleştirmesi yapar.
     context = "\n".join([f"İlgili Semptom: {doc}, Gitmesi Gereken Poliklinik: {meta['poliklinik']}" for doc, meta in zip(documents, metadatas)])
 
-    # Gemini modeline göndereceğimiz prompt hazırlıyoruz.
-    # Bu, modelin nasıl davranacağını, hangi bilgileri kullanacağını belirten bir şablondur.
     prompt = f"""
     Sen, kullanıcının sağlık sorunlarına göre hangi polikliniğe gitmesi gerektiğini öneren bir yardımcı asistansın.
     Sana kullanıcının sorusunu ve veritabanından bulduğun en ilgili semptomları vereceğim.
@@ -108,34 +149,25 @@ def cevap_uret(soru, bulunan_sonuclar):
     CEVAP:
     """
     
-    # Hazırlanan prompt'u Gemini modeline göndeririz.
     response = generation_model.generate_content(prompt)
-    
-    # Modelden gelen cevabın sadece metin kısmını geri döndürürüz.
     return response.text
 
-# --- STREAMLIT ARAYÜZÜ (Uygulamanın ana akışı) ---
-
-
+# --- STREAMLIT ARAYÜZÜ ---
 st.title("🏥 Poliklinik Öneri Chatbotu")
 st.caption("Lütfen yaşadığınız sağlık sorununu veya belirtilerinizi aşağıdaki kutucuğa yazın.")
 
-# Girilen metin 'user_input' değişkenine atanır.
+# Kullanıcıdan metin girdisi al
 user_input = st.text_input("Şikayetinizi buraya yazın...", key="user_input")
 
-# 'if user_input:' bloğu, kullanıcı kutucuğa bir şey yazıp Enter'a bastığı anda çalışır.
 if user_input:
-    # 'with st.spinner(...)' bloğu, içindeki kodlar çalışırken kullanıcıya bir bekleme mesajı gösterir.
     with st.spinner('Sizin için en uygun polikliniği arıyorum... Lütfen bekleyin...'):
-        
-        # 1. Adım: Kullanıcının girdiği metni (user_input) al ve veritabanında en benzer sonuçları bul.
+        # 1. Veritabanında arama yap
         benzer_sonuclar = en_yakin_poliklinigi_bul(user_input)
         
-        # 2. Adım: Bulunan benzer sonuçları (benzer_sonuclar) ve kullanıcının sorusunu (user_input)
-        #           'cevap_uret' fonksiyonuna göndererek modelden bir cevap oluşturmasını iste.
+        # 2. Bulunan sonuçlarla bir cevap üret
         chatbot_cevabi = cevap_uret(user_input, benzer_sonuclar)
         
-        # 3. Adım: Üretilen cevabı kullanıcıya göster.
-        st.markdown("---") 
-        st.write("🤖 *Chatbot'un Önerisi:*") 
-        st.info(chatbot_cevabi) 
+        # 3. Sonucu ekrana yazdır
+        st.markdown("---")
+        st.write("🤖 *Chatbot'un Önerisi:*")
+        st.info(chatbot_cevabi)
