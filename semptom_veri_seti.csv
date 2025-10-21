@@ -1,0 +1,540 @@
+semptom,poliklinik,açıklama
+"Baş ağrısı, mide bulantısı",Nöroloji,Sürekli baş ağrısı veya mide bulantısı nörolojik sorunlara bağlı olabilir.
+"Boğaz ağrısı, ateş",KBB / Enfeksiyon Hastalıkları,Viral veya bakteriyel enfeksiyon kaynaklı olabilir.
+"Göğüs ağrısı, nefes darlığı",Kardiyoloji / Göğüs Hastalıkları,Kalp veya akciğer kaynaklı olabilir.
+"Karın ağrısı, ishal",Dahiliye / Gastroenteroloji,Sindirim sistemi rahatsızlıklarında görülür.
+"Sırt ağrısı, kas tutulması",Fizik Tedavi ve Rehabilitasyon,Kas-iskelet sistemi sorunlarıyla ilgilidir.
+"Mide yanması, gaz",Gastroenteroloji,Mide asidi veya reflü kaynaklı olabilir.
+"Ciltte kaşıntı, kızarıklık",Dermatoloji,Alerji veya deri enfeksiyonlarına bağlı olabilir.
+"Gözde kızarma, yanma",Göz Hastalıkları,Göz enfeksiyonları veya alerjik reaksiyonlar görülebilir.
+Diş ağrısı,Diş Hekimliği,Diş çürüğü veya diş eti enfeksiyonu olabilir.
+"Kulak ağrısı, işitme azlığı",KBB,Orta kulak iltihabı veya tıkanıklık olabilir.
+"Sık idrara çıkma, yanma",Üroloji,İdrar yolu enfeksiyonu veya mesane sorunları olabilir.
+Adet düzensizliği,Kadın Doğum,Hormonal veya jinekolojik nedenler olabilir.
+"Kilo kaybı, halsizlik",Endokrinoloji / Dahiliye,Tiroid veya metabolik rahatsızlık olabilir.
+"Eklemlerde şişlik, ağrı",Romatoloji,Romatizmal hastalıklar kaynaklı olabilir.
+Kalp çarpıntısı,Kardiyoloji,Ritim bozukluğu veya anksiyete belirtisi olabilir.
+"Uyku bozukluğu, stres",Psikiyatri,Anksiyete veya depresyon kaynaklı olabilir.
+"Nefes darlığı, öksürük",Göğüs Hastalıkları,Astım veya bronşit gibi solunum yolu hastalıkları olabilir.
+"Burun tıkanıklığı, geniz akıntısı",KBB,Alerjik rinit veya sinüzit olabilir.
+"Sıcak basması, terleme",Endokrinoloji / Kadın Doğum,Menopoz veya hormon dengesizliği belirtisi olabilir.
+"Göz seğirmesi, baş dönmesi",Nöroloji,Yorgunluk veya sinir sistemi bozukluklarıyla ilgili olabilir.
+"Yorgunluk, kansızlık",Dahiliye,Demir eksikliği veya vitamin yetersizliği olabilir.
+"Döküntü, ateş",Enfeksiyon Hastalıkları / Dermatoloji,Viral enfeksiyon veya alerjik reaksiyon olabilir.
+El titremesi,Nöroloji / Endokrinoloji,Parkinson veya tiroid bozukluklarıyla ilişkili olabilir.
+"Sırt ağrısı, uyuşma",Ortopedi / Beyin Cerrahisi,Omurga sıkışması veya fıtık olabilir.
+"Karın şişliği, iştahsızlık",Gastroenteroloji,Sindirim sistemi hastalıkları olabilir.
+İdrarda kan,Üroloji,Böbrek taşı veya idrar yolu enfeksiyonu olabilir.
+El ve ayakta morarma,Kardiyoloji,Dolaşım bozukluğu belirtisi olabilir.
+"Dilde yanma, ağız kuruluğu",Dahiliye / Ağız ve Diş Sağlığı,Vitamin eksikliği veya enfeksiyon olabilir.
+"Uyuşma, güçsüzlük",Nöroloji,Sinir sistemi kaynaklı olabilir.
+Sık burun kanaması,KBB / Hematoloji,Burun damar hassasiyeti veya kan pıhtılaşma sorunu olabilir.
+Şiddetli adet ağrısı,Kadın Doğum,Hormonal dengesizlik veya miyom belirtisi olabilir.
+Gözde görme bulanıklığı,Göz Hastalıkları,Göz tansiyonu veya kırma kusuru olabilir.
+"Ciltte mantar, döküntü",Dermatoloji,Cilt enfeksiyonlarına bağlı olabilir.
+"Göğüs sıkışması, çabuk yorulma",Kardiyoloji,Kalp damar hastalıkları belirtisi olabilir.
+"El uyuşması, boyun ağrısı",Fizik Tedavi / Nöroloji,Sinir sıkışması veya kas zorlanması olabilir.
+Duygu durum değişimi,Psikiyatri,Depresyon veya bipolar bozukluk belirtisi olabilir.
+"Tırnak kırılması, saç dökülmesi",Endokrinoloji / Dermatoloji,Vitamin eksikliği veya tiroid sorunu olabilir.
+Ağız kokusu,Diş Hekimliği / Gastroenteroloji,Diş eti hastalığı veya mide sorunları olabilir.
+Aşırı terleme,Endokrinoloji,Hormon dengesizliği veya tiroid sorunları olabilir.
+"omuz ağrısı, gözde sulanma",Göz,"omuz ağrısı, gözde sulanma şikayetleri genellikle göz polikliniğinde değerlendirilir."
+ellerde morarma,KBB,ellerde morarma şikayetleri genellikle kbb polikliniğinde değerlendirilir.
+"ellerde soğukluk, ciltte kaşıntı",Cildiye,"ellerde soğukluk, ciltte kaşıntı şikayetleri genellikle cildiye polikliniğinde değerlendirilir."
+"aşırı terleme, yorgunluk, kalp çarpıntısı",Dahiliye,"aşırı terleme, yorgunluk, kalp çarpıntısı şikayetleri genellikle dahiliye polikliniğinde değerlendirilir."
+"nefes kesilmesi, kulakta ağrı, nefes almada zorluk",Göğüs Hastalıkları,"nefes kesilmesi, kulakta ağrı, nefes almada zorluk şikayetleri genellikle göğüs hastalıkları polikliniğinde değerlendirilir."
+"bel ağrısı, ciltte kaşıntı",Genel Cerrahi,"bel ağrısı, ciltte kaşıntı şikayetleri genellikle genel cerrahi polikliniğinde değerlendirilir."
+"kulakta ağrı, göz kızarıklığı",Üroloji,"kulakta ağrı, göz kızarıklığı şikayetleri genellikle üroloji polikliniğinde değerlendirilir."
+konsantrasyon bozukluğu,Göz,konsantrasyon bozukluğu şikayetleri genellikle göz polikliniğinde değerlendirilir.
+"kaygı hissi, halsizlik, idrar yanması",Kadın Doğum,"kaygı hissi, halsizlik, idrar yanması şikayetleri genellikle kadın doğum polikliniğinde değerlendirilir."
+"ciltte kaşıntı, boğazda gıcık",Cildiye,"ciltte kaşıntı, boğazda gıcık şikayetleri genellikle cildiye polikliniğinde değerlendirilir."
+"boğazda gıcık, karında sancı, boğazda yanma",Göz,"boğazda gıcık, karında sancı, boğazda yanma şikayetleri genellikle göz polikliniğinde değerlendirilir."
+"nefes darlığı, uykusuzluk, karın şişliği",Göğüs Hastalıkları,"nefes darlığı, uykusuzluk, karın şişliği şikayetleri genellikle göğüs hastalıkları polikliniğinde değerlendirilir."
+gözde sulanma,Psikiyatri,gözde sulanma şikayetleri genellikle psikiyatri polikliniğinde değerlendirilir.
+uykuya dalamama,Kadın Doğum,uykuya dalamama şikayetleri genellikle kadın doğum polikliniğinde değerlendirilir.
+"bel ağrısı, ciltte kaşıntı",KBB,"bel ağrısı, ciltte kaşıntı şikayetleri genellikle kbb polikliniğinde değerlendirilir."
+"nefes darlığı, omuz ağrısı, eklem ağrısı",Dahiliye,"nefes darlığı, omuz ağrısı, eklem ağrısı şikayetleri genellikle dahiliye polikliniğinde değerlendirilir."
+"yüzde kızarma, burun tıkanıklığı, ense ağrısı",Cildiye,"yüzde kızarma, burun tıkanıklığı, ense ağrısı şikayetleri genellikle cildiye polikliniğinde değerlendirilir."
+"ellerde soğukluk, göz kuruluğu",Göz,"ellerde soğukluk, göz kuruluğu şikayetleri genellikle göz polikliniğinde değerlendirilir."
+"kalp çarpıntısı, ishal",Enfeksiyon,"kalp çarpıntısı, ishal şikayetleri genellikle enfeksiyon polikliniğinde değerlendirilir."
+"kalp çarpıntısı, baş dönmesi, kulak çınlaması",KBB,"kalp çarpıntısı, baş dönmesi, kulak çınlaması şikayetleri genellikle kbb polikliniğinde değerlendirilir."
+"kabızlık, kalp çarpıntısı",KBB,"kabızlık, kalp çarpıntısı şikayetleri genellikle kbb polikliniğinde değerlendirilir."
+"baş dönmesi, ishal",Fizik Tedavi,"baş dönmesi, ishal şikayetleri genellikle fizik tedavi polikliniğinde değerlendirilir."
+kulakta ağrı,Dahiliye,kulakta ağrı şikayetleri genellikle dahiliye polikliniğinde değerlendirilir.
+"omuz ağrısı, ishal, göğüs ağrısı",Fizik Tedavi,"omuz ağrısı, ishal, göğüs ağrısı şikayetleri genellikle fizik tedavi polikliniğinde değerlendirilir."
+omuz ağrısı,Üroloji,omuz ağrısı şikayetleri genellikle üroloji polikliniğinde değerlendirilir.
+"ishal, ellerde morarma",Ortopedi,"ishal, ellerde morarma şikayetleri genellikle ortopedi polikliniğinde değerlendirilir."
+"kalp çarpıntısı, ciltte kaşıntı, nefes kesilmesi",Psikiyatri,"kalp çarpıntısı, ciltte kaşıntı, nefes kesilmesi şikayetleri genellikle psikiyatri polikliniğinde değerlendirilir."
+"yorgunluk, başta basınç hissi, mide yanması",Ortopedi,"yorgunluk, başta basınç hissi, mide yanması şikayetleri genellikle ortopedi polikliniğinde değerlendirilir."
+ishal,Endokrinoloji,ishal şikayetleri genellikle endokrinoloji polikliniğinde değerlendirilir.
+göz kuruluğu,Kadın Doğum,göz kuruluğu şikayetleri genellikle kadın doğum polikliniğinde değerlendirilir.
+"ellerde uyuşma, karın şişliği",Kadın Doğum,"ellerde uyuşma, karın şişliği şikayetleri genellikle kadın doğum polikliniğinde değerlendirilir."
+"ciltte döküntü, yorgunluk, karın ağrısı",Endokrinoloji,"ciltte döküntü, yorgunluk, karın ağrısı şikayetleri genellikle endokrinoloji polikliniğinde değerlendirilir."
+konsantrasyon bozukluğu,Üroloji,konsantrasyon bozukluğu şikayetleri genellikle üroloji polikliniğinde değerlendirilir.
+"ellerde soğukluk, halsizlik, nefes kesilmesi",Dahiliye,"ellerde soğukluk, halsizlik, nefes kesilmesi şikayetleri genellikle dahiliye polikliniğinde değerlendirilir."
+"karın ağrısı, hıçkırık",KBB,"karın ağrısı, hıçkırık şikayetleri genellikle kbb polikliniğinde değerlendirilir."
+"karın ağrısı, kalp çarpıntısı",Kardiyoloji,"karın ağrısı, kalp çarpıntısı şikayetleri genellikle kardiyoloji polikliniğinde değerlendirilir."
+"gözde sulanma, ayak şişmesi, yüzde kızarma",Dahiliye,"gözde sulanma, ayak şişmesi, yüzde kızarma şikayetleri genellikle dahiliye polikliniğinde değerlendirilir."
+"kaygı hissi, eklem ağrısı, ellerde morarma",Göğüs Hastalıkları,"kaygı hissi, eklem ağrısı, ellerde morarma şikayetleri genellikle göğüs hastalıkları polikliniğinde değerlendirilir."
+"göz kuruluğu, kabızlık, ellerde morarma",Göğüs Hastalıkları,"göz kuruluğu, kabızlık, ellerde morarma şikayetleri genellikle göğüs hastalıkları polikliniğinde değerlendirilir."
+"ense ağrısı, el titremesi, ciltte döküntü",Kadın Doğum,"ense ağrısı, el titremesi, ciltte döküntü şikayetleri genellikle kadın doğum polikliniğinde değerlendirilir."
+"eklem ağrısı, uykuya dalamama",Nöroloji,"eklem ağrısı, uykuya dalamama şikayetleri genellikle nöroloji polikliniğinde değerlendirilir."
+"eklem ağrısı, boğazda gıcık",Endokrinoloji,"eklem ağrısı, boğazda gıcık şikayetleri genellikle endokrinoloji polikliniğinde değerlendirilir."
+"yüzde kızarma, gözde sulanma, ateş",KBB,"yüzde kızarma, gözde sulanma, ateş şikayetleri genellikle kbb polikliniğinde değerlendirilir."
+"bel ağrısı, yüzde kızarma",Fizik Tedavi,"bel ağrısı, yüzde kızarma şikayetleri genellikle fizik tedavi polikliniğinde değerlendirilir."
+"nefes darlığı, ciltte kaşıntı",Kardiyoloji,"nefes darlığı, ciltte kaşıntı şikayetleri genellikle kardiyoloji polikliniğinde değerlendirilir."
+"burun tıkanıklığı, göğüs ağrısı",Psikiyatri,"burun tıkanıklığı, göğüs ağrısı şikayetleri genellikle psikiyatri polikliniğinde değerlendirilir."
+"nefes darlığı, konsantrasyon bozukluğu, el titremesi",Enfeksiyon,"nefes darlığı, konsantrasyon bozukluğu, el titremesi şikayetleri genellikle enfeksiyon polikliniğinde değerlendirilir."
+ayak şişmesi,Psikiyatri,ayak şişmesi şikayetleri genellikle psikiyatri polikliniğinde değerlendirilir.
+aşırı terleme,Üroloji,aşırı terleme şikayetleri genellikle üroloji polikliniğinde değerlendirilir.
+omuz ağrısı,Genel Cerrahi,omuz ağrısı şikayetleri genellikle genel cerrahi polikliniğinde değerlendirilir.
+"yorgunluk, nefes almada zorluk",Enfeksiyon,"yorgunluk, nefes almada zorluk şikayetleri genellikle enfeksiyon polikliniğinde değerlendirilir."
+"idrar yanması, ellerde morarma",Psikiyatri,"idrar yanması, ellerde morarma şikayetleri genellikle psikiyatri polikliniğinde değerlendirilir."
+eklem ağrısı,Fizik Tedavi,eklem ağrısı şikayetleri genellikle fizik tedavi polikliniğinde değerlendirilir.
+nefes darlığı,Kadın Doğum,nefes darlığı şikayetleri genellikle kadın doğum polikliniğinde değerlendirilir.
+göz kızarıklığı,Enfeksiyon,göz kızarıklığı şikayetleri genellikle enfeksiyon polikliniğinde değerlendirilir.
+"karın ağrısı, gözde sulanma, karında sancı",KBB,"karın ağrısı, gözde sulanma, karında sancı şikayetleri genellikle kbb polikliniğinde değerlendirilir."
+"uykusuzluk, kulakta ağrı",Göğüs Hastalıkları,"uykusuzluk, kulakta ağrı şikayetleri genellikle göğüs hastalıkları polikliniğinde değerlendirilir."
+ateş,Psikiyatri,ateş şikayetleri genellikle psikiyatri polikliniğinde değerlendirilir.
+"kabızlık, burun tıkanıklığı",Nöroloji,"kabızlık, burun tıkanıklığı şikayetleri genellikle nöroloji polikliniğinde değerlendirilir."
+"karında sancı, yüzde kızarma, nefes darlığı",Dahiliye,"karında sancı, yüzde kızarma, nefes darlığı şikayetleri genellikle dahiliye polikliniğinde değerlendirilir."
+"mide yanması, nefes darlığı",Enfeksiyon,"mide yanması, nefes darlığı şikayetleri genellikle enfeksiyon polikliniğinde değerlendirilir."
+eklem ağrısı,Genel Cerrahi,eklem ağrısı şikayetleri genellikle genel cerrahi polikliniğinde değerlendirilir.
+boğazda yanma,Kardiyoloji,boğazda yanma şikayetleri genellikle kardiyoloji polikliniğinde değerlendirilir.
+idrar yanması,KBB,idrar yanması şikayetleri genellikle kbb polikliniğinde değerlendirilir.
+"karında sancı, yüzde kızarma",Ortopedi,"karında sancı, yüzde kızarma şikayetleri genellikle ortopedi polikliniğinde değerlendirilir."
+ishal,Genel Cerrahi,ishal şikayetleri genellikle genel cerrahi polikliniğinde değerlendirilir.
+bacakta kramp,Endokrinoloji,bacakta kramp şikayetleri genellikle endokrinoloji polikliniğinde değerlendirilir.
+"boğazda yanma, karın ağrısı, kulak çınlaması",Genel Cerrahi,"boğazda yanma, karın ağrısı, kulak çınlaması şikayetleri genellikle genel cerrahi polikliniğinde değerlendirilir."
+bel ağrısı,Göz,bel ağrısı şikayetleri genellikle göz polikliniğinde değerlendirilir.
+"idrar yanması, göğüs ağrısı, boğazda yanma",Kadın Doğum,"idrar yanması, göğüs ağrısı, boğazda yanma şikayetleri genellikle kadın doğum polikliniğinde değerlendirilir."
+"eklem ağrısı, boğazda gıcık, göz kızarıklığı",Kardiyoloji,"eklem ağrısı, boğazda gıcık, göz kızarıklığı şikayetleri genellikle kardiyoloji polikliniğinde değerlendirilir."
+omuz ağrısı,Dahiliye,omuz ağrısı şikayetleri genellikle dahiliye polikliniğinde değerlendirilir.
+boğazda gıcık,Fizik Tedavi,boğazda gıcık şikayetleri genellikle fizik tedavi polikliniğinde değerlendirilir.
+ense ağrısı,Enfeksiyon,ense ağrısı şikayetleri genellikle enfeksiyon polikliniğinde değerlendirilir.
+"iştahsızlık, göz kuruluğu",Göğüs Hastalıkları,"iştahsızlık, göz kuruluğu şikayetleri genellikle göğüs hastalıkları polikliniğinde değerlendirilir."
+"nefes almada zorluk, kas seğirmesi, baş dönmesi",KBB,"nefes almada zorluk, kas seğirmesi, baş dönmesi şikayetleri genellikle kbb polikliniğinde değerlendirilir."
+nefes kesilmesi,Nöroloji,nefes kesilmesi şikayetleri genellikle nöroloji polikliniğinde değerlendirilir.
+"kas seğirmesi, göğüs ağrısı, ciltte döküntü",Üroloji,"kas seğirmesi, göğüs ağrısı, ciltte döküntü şikayetleri genellikle üroloji polikliniğinde değerlendirilir."
+"bel ağrısı, burun tıkanıklığı, ateş",Nöroloji,"bel ağrısı, burun tıkanıklığı, ateş şikayetleri genellikle nöroloji polikliniğinde değerlendirilir."
+"baş dönmesi, aşırı terleme",Psikiyatri,"baş dönmesi, aşırı terleme şikayetleri genellikle psikiyatri polikliniğinde değerlendirilir."
+"nefes almada zorluk, ishal",Kadın Doğum,"nefes almada zorluk, ishal şikayetleri genellikle kadın doğum polikliniğinde değerlendirilir."
+yorgunluk,Kardiyoloji,yorgunluk şikayetleri genellikle kardiyoloji polikliniğinde değerlendirilir.
+baş dönmesi,Dahiliye,baş dönmesi şikayetleri genellikle dahiliye polikliniğinde değerlendirilir.
+nefes kesilmesi,Genel Cerrahi,nefes kesilmesi şikayetleri genellikle genel cerrahi polikliniğinde değerlendirilir.
+ciltte kaşıntı,Kadın Doğum,ciltte kaşıntı şikayetleri genellikle kadın doğum polikliniğinde değerlendirilir.
+"idrar yanması, yorgunluk, ellerde uyuşma",Endokrinoloji,"idrar yanması, yorgunluk, ellerde uyuşma şikayetleri genellikle endokrinoloji polikliniğinde değerlendirilir."
+"mide yanması, ellerde morarma",KBB,"mide yanması, ellerde morarma şikayetleri genellikle kbb polikliniğinde değerlendirilir."
+"halsizlik, idrar yanması",Göğüs Hastalıkları,"halsizlik, idrar yanması şikayetleri genellikle göğüs hastalıkları polikliniğinde değerlendirilir."
+"göğüs ağrısı, yüzde kızarma, kas seğirmesi",Dahiliye,"göğüs ağrısı, yüzde kızarma, kas seğirmesi şikayetleri genellikle dahiliye polikliniğinde değerlendirilir."
+"unutkanlık, sırt ağrısı, idrar yanması",Fizik Tedavi,"unutkanlık, sırt ağrısı, idrar yanması şikayetleri genellikle fizik tedavi polikliniğinde değerlendirilir."
+"karın şişliği, omuz ağrısı, ellerde morarma",KBB,"karın şişliği, omuz ağrısı, ellerde morarma şikayetleri genellikle kbb polikliniğinde değerlendirilir."
+"göğüs ağrısı, kulak çınlaması",Genel Cerrahi,"göğüs ağrısı, kulak çınlaması şikayetleri genellikle genel cerrahi polikliniğinde değerlendirilir."
+"yüzde kızarma, ciltte döküntü",Göz,"yüzde kızarma, ciltte döküntü şikayetleri genellikle göz polikliniğinde değerlendirilir."
+"karın şişliği, ciltte kaşıntı",Ortopedi,"karın şişliği, ciltte kaşıntı şikayetleri genellikle ortopedi polikliniğinde değerlendirilir."
+"ense ağrısı, üşüme, gözde sulanma",Göğüs Hastalıkları,"ense ağrısı, üşüme, gözde sulanma şikayetleri genellikle göğüs hastalıkları polikliniğinde değerlendirilir."
+"göz kuruluğu, ellerde soğukluk, idrar yanması",Fizik Tedavi,"göz kuruluğu, ellerde soğukluk, idrar yanması şikayetleri genellikle fizik tedavi polikliniğinde değerlendirilir."
+"kulakta ağrı, eklem ağrısı",Dahiliye,"kulakta ağrı, eklem ağrısı şikayetleri genellikle dahiliye polikliniğinde değerlendirilir."
+"ishal, mide yanması, karın şişliği",Genel Cerrahi,"ishal, mide yanması, karın şişliği şikayetleri genellikle genel cerrahi polikliniğinde değerlendirilir."
+"halsizlik, unutkanlık, ense ağrısı",Göğüs Hastalıkları,"halsizlik, unutkanlık, ense ağrısı şikayetleri genellikle göğüs hastalıkları polikliniğinde değerlendirilir."
+aşırı terleme,KBB,aşırı terleme şikayetleri genellikle kbb polikliniğinde değerlendirilir.
+"halsizlik, bacakta kramp, ciltte kaşıntı",Nöroloji,"halsizlik, bacakta kramp, ciltte kaşıntı şikayetleri genellikle nöroloji polikliniğinde değerlendirilir."
+"karın şişliği, nefes kesilmesi",Göz,"karın şişliği, nefes kesilmesi şikayetleri genellikle göz polikliniğinde değerlendirilir."
+"göğüs ağrısı, kabızlık, hıçkırık",Dahiliye,"göğüs ağrısı, kabızlık, hıçkırık şikayetleri genellikle dahiliye polikliniğinde değerlendirilir."
+"yüzde kızarma, eklem ağrısı",Cildiye,"yüzde kızarma, eklem ağrısı şikayetleri genellikle cildiye polikliniğinde değerlendirilir."
+idrar yanması,KBB,idrar yanması şikayetleri genellikle kbb polikliniğinde değerlendirilir.
+"burun tıkanıklığı, ciltte döküntü, ayak şişmesi",Ortopedi,"burun tıkanıklığı, ciltte döküntü, ayak şişmesi şikayetleri genellikle ortopedi polikliniğinde değerlendirilir."
+ateş,Genel Cerrahi,ateş şikayetleri genellikle genel cerrahi polikliniğinde değerlendirilir.
+halsizlik,Fizik Tedavi,halsizlik şikayetleri genellikle fizik tedavi polikliniğinde değerlendirilir.
+"karında sancı, kulak çınlaması",KBB,"karında sancı, kulak çınlaması şikayetleri genellikle kbb polikliniğinde değerlendirilir."
+"göz kızarıklığı, ellerde uyuşma, unutkanlık",Ortopedi,"göz kızarıklığı, ellerde uyuşma, unutkanlık şikayetleri genellikle ortopedi polikliniğinde değerlendirilir."
+"ateş, omuz ağrısı",Genel Cerrahi,"ateş, omuz ağrısı şikayetleri genellikle genel cerrahi polikliniğinde değerlendirilir."
+"boğazda yanma, eklem ağrısı",Fizik Tedavi,"boğazda yanma, eklem ağrısı şikayetleri genellikle fizik tedavi polikliniğinde değerlendirilir."
+kabızlık,Ortopedi,kabızlık şikayetleri genellikle ortopedi polikliniğinde değerlendirilir.
+"ciltte döküntü, kulak çınlaması, burun tıkanıklığı",Kadın Doğum,"ciltte döküntü, kulak çınlaması, burun tıkanıklığı şikayetleri genellikle kadın doğum polikliniğinde değerlendirilir."
+"bel ağrısı, ellerde uyuşma",Dahiliye,"bel ağrısı, ellerde uyuşma şikayetleri genellikle dahiliye polikliniğinde değerlendirilir."
+"uykuya dalamama, nefes almada zorluk, karında sancı",Psikiyatri,"uykuya dalamama, nefes almada zorluk, karında sancı şikayetleri genellikle psikiyatri polikliniğinde değerlendirilir."
+"üşüme, halsizlik, ense ağrısı",KBB,"üşüme, halsizlik, ense ağrısı şikayetleri genellikle kbb polikliniğinde değerlendirilir."
+"hıçkırık, aşırı terleme",Dahiliye,"hıçkırık, aşırı terleme şikayetleri genellikle dahiliye polikliniğinde değerlendirilir."
+"göğüs ağrısı, ciltte kaşıntı, boğazda yanma",Ortopedi,"göğüs ağrısı, ciltte kaşıntı, boğazda yanma şikayetleri genellikle ortopedi polikliniğinde değerlendirilir."
+göz kızarıklığı,KBB,göz kızarıklığı şikayetleri genellikle kbb polikliniğinde değerlendirilir.
+"yüzde kızarma, kulak çınlaması, mide bulantısı",KBB,"yüzde kızarma, kulak çınlaması, mide bulantısı şikayetleri genellikle kbb polikliniğinde değerlendirilir."
+aşırı terleme,Fizik Tedavi,aşırı terleme şikayetleri genellikle fizik tedavi polikliniğinde değerlendirilir.
+el titremesi,Nöroloji,el titremesi şikayetleri genellikle nöroloji polikliniğinde değerlendirilir.
+baş dönmesi,Göğüs Hastalıkları,baş dönmesi şikayetleri genellikle göğüs hastalıkları polikliniğinde değerlendirilir.
+üşüme,Cildiye,üşüme şikayetleri genellikle cildiye polikliniğinde değerlendirilir.
+idrar yanması,Fizik Tedavi,idrar yanması şikayetleri genellikle fizik tedavi polikliniğinde değerlendirilir.
+uykusuzluk,KBB,uykusuzluk şikayetleri genellikle kbb polikliniğinde değerlendirilir.
+kulakta ağrı,Göğüs Hastalıkları,kulakta ağrı şikayetleri genellikle göğüs hastalıkları polikliniğinde değerlendirilir.
+"uykuya dalamama, uykusuzluk",Göğüs Hastalıkları,"uykuya dalamama, uykusuzluk şikayetleri genellikle göğüs hastalıkları polikliniğinde değerlendirilir."
+aşırı terleme,Dahiliye,aşırı terleme şikayetleri genellikle dahiliye polikliniğinde değerlendirilir.
+"ellerde morarma, nefes almada zorluk",Endokrinoloji,"ellerde morarma, nefes almada zorluk şikayetleri genellikle endokrinoloji polikliniğinde değerlendirilir."
+"üşüme, uykuya dalamama, kulakta ağrı",Göz,"üşüme, uykuya dalamama, kulakta ağrı şikayetleri genellikle göz polikliniğinde değerlendirilir."
+"yüzde kızarma, ateş",Kardiyoloji,"yüzde kızarma, ateş şikayetleri genellikle kardiyoloji polikliniğinde değerlendirilir."
+ellerde morarma,Genel Cerrahi,ellerde morarma şikayetleri genellikle genel cerrahi polikliniğinde değerlendirilir.
+ateş,Göz,ateş şikayetleri genellikle göz polikliniğinde değerlendirilir.
+halsizlik,Cildiye,halsizlik şikayetleri genellikle cildiye polikliniğinde değerlendirilir.
+yüzde kızarma,Cildiye,yüzde kızarma şikayetleri genellikle cildiye polikliniğinde değerlendirilir.
+omuz ağrısı,Cildiye,omuz ağrısı şikayetleri genellikle cildiye polikliniğinde değerlendirilir.
+ishal,Cildiye,ishal şikayetleri genellikle cildiye polikliniğinde değerlendirilir.
+"ellerde uyuşma, gözde sulanma",KBB,"ellerde uyuşma, gözde sulanma şikayetleri genellikle kbb polikliniğinde değerlendirilir."
+"ishal, ellerde uyuşma",Genel Cerrahi,"ishal, ellerde uyuşma şikayetleri genellikle genel cerrahi polikliniğinde değerlendirilir."
+unutkanlık,Göz,unutkanlık şikayetleri genellikle göz polikliniğinde değerlendirilir.
+kas seğirmesi,Enfeksiyon,kas seğirmesi şikayetleri genellikle enfeksiyon polikliniğinde değerlendirilir.
+"kalp çarpıntısı, aşırı terleme",Nöroloji,"kalp çarpıntısı, aşırı terleme şikayetleri genellikle nöroloji polikliniğinde değerlendirilir."
+uykuya dalamama,Cildiye,uykuya dalamama şikayetleri genellikle cildiye polikliniğinde değerlendirilir.
+"bel ağrısı, karın şişliği",Göğüs Hastalıkları,"bel ağrısı, karın şişliği şikayetleri genellikle göğüs hastalıkları polikliniğinde değerlendirilir."
+göz kuruluğu,KBB,göz kuruluğu şikayetleri genellikle kbb polikliniğinde değerlendirilir.
+"idrar yanması, kalp çarpıntısı, ellerde morarma",Göğüs Hastalıkları,"idrar yanması, kalp çarpıntısı, ellerde morarma şikayetleri genellikle göğüs hastalıkları polikliniğinde değerlendirilir."
+"idrar yanması, uykuya dalamama, üşüme",Kadın Doğum,"idrar yanması, uykuya dalamama, üşüme şikayetleri genellikle kadın doğum polikliniğinde değerlendirilir."
+"ayak şişmesi, konsantrasyon bozukluğu, idrar yanması",Genel Cerrahi,"ayak şişmesi, konsantrasyon bozukluğu, idrar yanması şikayetleri genellikle genel cerrahi polikliniğinde değerlendirilir."
+"ellerde morarma, ciltte döküntü, göğüs ağrısı",Endokrinoloji,"ellerde morarma, ciltte döküntü, göğüs ağrısı şikayetleri genellikle endokrinoloji polikliniğinde değerlendirilir."
+ciltte döküntü,Göğüs Hastalıkları,ciltte döküntü şikayetleri genellikle göğüs hastalıkları polikliniğinde değerlendirilir.
+"ellerde uyuşma, yüzde kızarma, hıçkırık",Enfeksiyon,"ellerde uyuşma, yüzde kızarma, hıçkırık şikayetleri genellikle enfeksiyon polikliniğinde değerlendirilir."
+"konsantrasyon bozukluğu, ellerde soğukluk, ellerde uyuşma",Göz,"konsantrasyon bozukluğu, ellerde soğukluk, ellerde uyuşma şikayetleri genellikle göz polikliniğinde değerlendirilir."
+"baş dönmesi, nefes kesilmesi, idrar yanması",Göz,"baş dönmesi, nefes kesilmesi, idrar yanması şikayetleri genellikle göz polikliniğinde değerlendirilir."
+"ense ağrısı, ellerde soğukluk",Dahiliye,"ense ağrısı, ellerde soğukluk şikayetleri genellikle dahiliye polikliniğinde değerlendirilir."
+hıçkırık,Göz,hıçkırık şikayetleri genellikle göz polikliniğinde değerlendirilir.
+"ateş, boğazda gıcık",Endokrinoloji,"ateş, boğazda gıcık şikayetleri genellikle endokrinoloji polikliniğinde değerlendirilir."
+"uykusuzluk, eklem ağrısı",Psikiyatri,"uykusuzluk, eklem ağrısı şikayetleri genellikle psikiyatri polikliniğinde değerlendirilir."
+baş dönmesi,Kardiyoloji,baş dönmesi şikayetleri genellikle kardiyoloji polikliniğinde değerlendirilir.
+"halsizlik, kulakta ağrı",Endokrinoloji,"halsizlik, kulakta ağrı şikayetleri genellikle endokrinoloji polikliniğinde değerlendirilir."
+"kalp çarpıntısı, ciltte döküntü, uykusuzluk",Üroloji,"kalp çarpıntısı, ciltte döküntü, uykusuzluk şikayetleri genellikle üroloji polikliniğinde değerlendirilir."
+ciltte döküntü,Ortopedi,ciltte döküntü şikayetleri genellikle ortopedi polikliniğinde değerlendirilir.
+kaygı hissi,Fizik Tedavi,kaygı hissi şikayetleri genellikle fizik tedavi polikliniğinde değerlendirilir.
+başta basınç hissi,Kadın Doğum,başta basınç hissi şikayetleri genellikle kadın doğum polikliniğinde değerlendirilir.
+"kalp çarpıntısı, mide bulantısı",Kadın Doğum,"kalp çarpıntısı, mide bulantısı şikayetleri genellikle kadın doğum polikliniğinde değerlendirilir."
+"ellerde soğukluk, göz kızarıklığı",Psikiyatri,"ellerde soğukluk, göz kızarıklığı şikayetleri genellikle psikiyatri polikliniğinde değerlendirilir."
+"halsizlik, ense ağrısı",Ortopedi,"halsizlik, ense ağrısı şikayetleri genellikle ortopedi polikliniğinde değerlendirilir."
+"el titremesi, baş dönmesi",Ortopedi,"el titremesi, baş dönmesi şikayetleri genellikle ortopedi polikliniğinde değerlendirilir."
+"ellerde morarma, nefes almada zorluk",Psikiyatri,"ellerde morarma, nefes almada zorluk şikayetleri genellikle psikiyatri polikliniğinde değerlendirilir."
+"ateş, sırt ağrısı, ellerde morarma",Nöroloji,"ateş, sırt ağrısı, ellerde morarma şikayetleri genellikle nöroloji polikliniğinde değerlendirilir."
+"kaygı hissi, karın ağrısı",Göz,"kaygı hissi, karın ağrısı şikayetleri genellikle göz polikliniğinde değerlendirilir."
+"karın ağrısı, kabızlık",Göz,"karın ağrısı, kabızlık şikayetleri genellikle göz polikliniğinde değerlendirilir."
+"gözde sulanma, ellerde soğukluk",Dahiliye,"gözde sulanma, ellerde soğukluk şikayetleri genellikle dahiliye polikliniğinde değerlendirilir."
+"unutkanlık, kalp çarpıntısı",Göz,"unutkanlık, kalp çarpıntısı şikayetleri genellikle göz polikliniğinde değerlendirilir."
+"karın şişliği, kabızlık",Genel Cerrahi,"karın şişliği, kabızlık şikayetleri genellikle genel cerrahi polikliniğinde değerlendirilir."
+gözde sulanma,Genel Cerrahi,gözde sulanma şikayetleri genellikle genel cerrahi polikliniğinde değerlendirilir.
+"ense ağrısı, el titremesi, iştahsızlık",KBB,"ense ağrısı, el titremesi, iştahsızlık şikayetleri genellikle kbb polikliniğinde değerlendirilir."
+"ayak şişmesi, kaygı hissi",Cildiye,"ayak şişmesi, kaygı hissi şikayetleri genellikle cildiye polikliniğinde değerlendirilir."
+"mide bulantısı, nefes almada zorluk",Kardiyoloji,"mide bulantısı, nefes almada zorluk şikayetleri genellikle kardiyoloji polikliniğinde değerlendirilir."
+el titremesi,Genel Cerrahi,el titremesi şikayetleri genellikle genel cerrahi polikliniğinde değerlendirilir.
+"kulakta ağrı, kas seğirmesi, mide bulantısı",Ortopedi,"kulakta ağrı, kas seğirmesi, mide bulantısı şikayetleri genellikle ortopedi polikliniğinde değerlendirilir."
+"nefes darlığı, kaygı hissi",Nöroloji,"nefes darlığı, kaygı hissi şikayetleri genellikle nöroloji polikliniğinde değerlendirilir."
+eklem ağrısı,Üroloji,eklem ağrısı şikayetleri genellikle üroloji polikliniğinde değerlendirilir.
+"kulakta ağrı, üşüme",Endokrinoloji,"kulakta ağrı, üşüme şikayetleri genellikle endokrinoloji polikliniğinde değerlendirilir."
+"eklem ağrısı, karın ağrısı, başta basınç hissi",Cildiye,"eklem ağrısı, karın ağrısı, başta basınç hissi şikayetleri genellikle cildiye polikliniğinde değerlendirilir."
+"ciltte kaşıntı, yüzde kızarma, bacakta kramp",Nöroloji,"ciltte kaşıntı, yüzde kızarma, bacakta kramp şikayetleri genellikle nöroloji polikliniğinde değerlendirilir."
+nefes almada zorluk,Psikiyatri,nefes almada zorluk şikayetleri genellikle psikiyatri polikliniğinde değerlendirilir.
+"kulak çınlaması, karın şişliği, konsantrasyon bozukluğu",Endokrinoloji,"kulak çınlaması, karın şişliği, konsantrasyon bozukluğu şikayetleri genellikle endokrinoloji polikliniğinde değerlendirilir."
+aşırı terleme,Psikiyatri,aşırı terleme şikayetleri genellikle psikiyatri polikliniğinde değerlendirilir.
+kalp çarpıntısı,Genel Cerrahi,kalp çarpıntısı şikayetleri genellikle genel cerrahi polikliniğinde değerlendirilir.
+"karında sancı, eklem ağrısı, ayak şişmesi",Kardiyoloji,"karında sancı, eklem ağrısı, ayak şişmesi şikayetleri genellikle kardiyoloji polikliniğinde değerlendirilir."
+"baş dönmesi, boğazda gıcık",Fizik Tedavi,"baş dönmesi, boğazda gıcık şikayetleri genellikle fizik tedavi polikliniğinde değerlendirilir."
+"boğazda gıcık, halsizlik",Ortopedi,"boğazda gıcık, halsizlik şikayetleri genellikle ortopedi polikliniğinde değerlendirilir."
+"kulakta ağrı, ense ağrısı",Cildiye,"kulakta ağrı, ense ağrısı şikayetleri genellikle cildiye polikliniğinde değerlendirilir."
+"kas seğirmesi, nefes darlığı, unutkanlık",KBB,"kas seğirmesi, nefes darlığı, unutkanlık şikayetleri genellikle kbb polikliniğinde değerlendirilir."
+"aşırı terleme, uykusuzluk, üşüme",Fizik Tedavi,"aşırı terleme, uykusuzluk, üşüme şikayetleri genellikle fizik tedavi polikliniğinde değerlendirilir."
+baş dönmesi,KBB,baş dönmesi şikayetleri genellikle kbb polikliniğinde değerlendirilir.
+"hıçkırık, göğüs ağrısı, ciltte döküntü",Göz,"hıçkırık, göğüs ağrısı, ciltte döküntü şikayetleri genellikle göz polikliniğinde değerlendirilir."
+nefes kesilmesi,Fizik Tedavi,nefes kesilmesi şikayetleri genellikle fizik tedavi polikliniğinde değerlendirilir.
+"karın ağrısı, eklem ağrısı",Göğüs Hastalıkları,"karın ağrısı, eklem ağrısı şikayetleri genellikle göğüs hastalıkları polikliniğinde değerlendirilir."
+"ellerde uyuşma, eklem ağrısı",Göz,"ellerde uyuşma, eklem ağrısı şikayetleri genellikle göz polikliniğinde değerlendirilir."
+"bacakta kramp, göğüs ağrısı",Göğüs Hastalıkları,"bacakta kramp, göğüs ağrısı şikayetleri genellikle göğüs hastalıkları polikliniğinde değerlendirilir."
+"kas seğirmesi, ellerde morarma, bacakta kramp",Göğüs Hastalıkları,"kas seğirmesi, ellerde morarma, bacakta kramp şikayetleri genellikle göğüs hastalıkları polikliniğinde değerlendirilir."
+"ishal, karında sancı, karın şişliği",Cildiye,"ishal, karında sancı, karın şişliği şikayetleri genellikle cildiye polikliniğinde değerlendirilir."
+"baş dönmesi, idrar yanması, kulakta ağrı",Ortopedi,"baş dönmesi, idrar yanması, kulakta ağrı şikayetleri genellikle ortopedi polikliniğinde değerlendirilir."
+"bacakta kramp, boğazda gıcık, ellerde morarma",Cildiye,"bacakta kramp, boğazda gıcık, ellerde morarma şikayetleri genellikle cildiye polikliniğinde değerlendirilir."
+"kabızlık, idrar yanması",Endokrinoloji,"kabızlık, idrar yanması şikayetleri genellikle endokrinoloji polikliniğinde değerlendirilir."
+"omuz ağrısı, kas seğirmesi",Psikiyatri,"omuz ağrısı, kas seğirmesi şikayetleri genellikle psikiyatri polikliniğinde değerlendirilir."
+göz kızarıklığı,Göğüs Hastalıkları,göz kızarıklığı şikayetleri genellikle göğüs hastalıkları polikliniğinde değerlendirilir.
+"ellerde soğukluk, karında sancı",Enfeksiyon,"ellerde soğukluk, karında sancı şikayetleri genellikle enfeksiyon polikliniğinde değerlendirilir."
+"boğazda yanma, nefes darlığı, kulakta ağrı",Üroloji,"boğazda yanma, nefes darlığı, kulakta ağrı şikayetleri genellikle üroloji polikliniğinde değerlendirilir."
+göz kızarıklığı,Enfeksiyon,göz kızarıklığı şikayetleri genellikle enfeksiyon polikliniğinde değerlendirilir.
+"gözde sulanma, ayak şişmesi, mide yanması",Ortopedi,"gözde sulanma, ayak şişmesi, mide yanması şikayetleri genellikle ortopedi polikliniğinde değerlendirilir."
+"aşırı terleme, sırt ağrısı",Dahiliye,"aşırı terleme, sırt ağrısı şikayetleri genellikle dahiliye polikliniğinde değerlendirilir."
+"mide bulantısı, el titremesi",Psikiyatri,"mide bulantısı, el titremesi şikayetleri genellikle psikiyatri polikliniğinde değerlendirilir."
+"kalp çarpıntısı, halsizlik",Nöroloji,"kalp çarpıntısı, halsizlik şikayetleri genellikle nöroloji polikliniğinde değerlendirilir."
+"hıçkırık, ellerde soğukluk",Ortopedi,"hıçkırık, ellerde soğukluk şikayetleri genellikle ortopedi polikliniğinde değerlendirilir."
+"göğüs ağrısı, kaygı hissi, halsizlik",Dahiliye,"göğüs ağrısı, kaygı hissi, halsizlik şikayetleri genellikle dahiliye polikliniğinde değerlendirilir."
+gözde sulanma,Endokrinoloji,gözde sulanma şikayetleri genellikle endokrinoloji polikliniğinde değerlendirilir.
+"ellerde soğukluk, karın ağrısı, bacakta kramp",KBB,"ellerde soğukluk, karın ağrısı, bacakta kramp şikayetleri genellikle kbb polikliniğinde değerlendirilir."
+sırt ağrısı,Genel Cerrahi,sırt ağrısı şikayetleri genellikle genel cerrahi polikliniğinde değerlendirilir.
+mide yanması,Cildiye,mide yanması şikayetleri genellikle cildiye polikliniğinde değerlendirilir.
+"nefes darlığı, boğazda gıcık",Dahiliye,"nefes darlığı, boğazda gıcık şikayetleri genellikle dahiliye polikliniğinde değerlendirilir."
+"kaygı hissi, kas seğirmesi, nefes almada zorluk",Genel Cerrahi,"kaygı hissi, kas seğirmesi, nefes almada zorluk şikayetleri genellikle genel cerrahi polikliniğinde değerlendirilir."
+"idrar yanması, mide bulantısı, burun tıkanıklığı",Dahiliye,"idrar yanması, mide bulantısı, burun tıkanıklığı şikayetleri genellikle dahiliye polikliniğinde değerlendirilir."
+"kaygı hissi, iştahsızlık, ellerde morarma",Üroloji,"kaygı hissi, iştahsızlık, ellerde morarma şikayetleri genellikle üroloji polikliniğinde değerlendirilir."
+"karın ağrısı, kulakta ağrı",Ortopedi,"karın ağrısı, kulakta ağrı şikayetleri genellikle ortopedi polikliniğinde değerlendirilir."
+gözde sulanma,Fizik Tedavi,gözde sulanma şikayetleri genellikle fizik tedavi polikliniğinde değerlendirilir.
+ciltte kaşıntı,Genel Cerrahi,ciltte kaşıntı şikayetleri genellikle genel cerrahi polikliniğinde değerlendirilir.
+"bel ağrısı, omuz ağrısı, bacakta kramp",KBB,"bel ağrısı, omuz ağrısı, bacakta kramp şikayetleri genellikle kbb polikliniğinde değerlendirilir."
+"karında sancı, göğüs ağrısı, kulak çınlaması",Nöroloji,"karında sancı, göğüs ağrısı, kulak çınlaması şikayetleri genellikle nöroloji polikliniğinde değerlendirilir."
+"göğüs ağrısı, bacakta kramp, göz kuruluğu",Psikiyatri,"göğüs ağrısı, bacakta kramp, göz kuruluğu şikayetleri genellikle psikiyatri polikliniğinde değerlendirilir."
+"baş dönmesi, kas seğirmesi, sırt ağrısı",Nöroloji,"baş dönmesi, kas seğirmesi, sırt ağrısı şikayetleri genellikle nöroloji polikliniğinde değerlendirilir."
+"ciltte kaşıntı, karın şişliği, eklem ağrısı",Genel Cerrahi,"ciltte kaşıntı, karın şişliği, eklem ağrısı şikayetleri genellikle genel cerrahi polikliniğinde değerlendirilir."
+"göz kuruluğu, hıçkırık",Üroloji,"göz kuruluğu, hıçkırık şikayetleri genellikle üroloji polikliniğinde değerlendirilir."
+"burun tıkanıklığı, ateş",Göğüs Hastalıkları,"burun tıkanıklığı, ateş şikayetleri genellikle göğüs hastalıkları polikliniğinde değerlendirilir."
+"yorgunluk, nefes kesilmesi, karın şişliği",Psikiyatri,"yorgunluk, nefes kesilmesi, karın şişliği şikayetleri genellikle psikiyatri polikliniğinde değerlendirilir."
+göğüs ağrısı,Psikiyatri,göğüs ağrısı şikayetleri genellikle psikiyatri polikliniğinde değerlendirilir.
+"bacakta kramp, burun tıkanıklığı",Kadın Doğum,"bacakta kramp, burun tıkanıklığı şikayetleri genellikle kadın doğum polikliniğinde değerlendirilir."
+"hıçkırık, ellerde morarma, nefes kesilmesi",Psikiyatri,"hıçkırık, ellerde morarma, nefes kesilmesi şikayetleri genellikle psikiyatri polikliniğinde değerlendirilir."
+"karın ağrısı, iştahsızlık, boğazda gıcık",Dahiliye,"karın ağrısı, iştahsızlık, boğazda gıcık şikayetleri genellikle dahiliye polikliniğinde değerlendirilir."
+"baş dönmesi, mide yanması, boğazda gıcık",KBB,"baş dönmesi, mide yanması, boğazda gıcık şikayetleri genellikle kbb polikliniğinde değerlendirilir."
+omuz ağrısı,Üroloji,omuz ağrısı şikayetleri genellikle üroloji polikliniğinde değerlendirilir.
+uykuya dalamama,Enfeksiyon,uykuya dalamama şikayetleri genellikle enfeksiyon polikliniğinde değerlendirilir.
+yorgunluk,Göz,yorgunluk şikayetleri genellikle göz polikliniğinde değerlendirilir.
+"kabızlık, ateş, idrar yanması",Göğüs Hastalıkları,"kabızlık, ateş, idrar yanması şikayetleri genellikle göğüs hastalıkları polikliniğinde değerlendirilir."
+ciltte döküntü,Kardiyoloji,ciltte döküntü şikayetleri genellikle kardiyoloji polikliniğinde değerlendirilir.
+boğazda gıcık,Ortopedi,boğazda gıcık şikayetleri genellikle ortopedi polikliniğinde değerlendirilir.
+idrar yanması,Kardiyoloji,idrar yanması şikayetleri genellikle kardiyoloji polikliniğinde değerlendirilir.
+"nefes kesilmesi, uykuya dalamama",Kardiyoloji,"nefes kesilmesi, uykuya dalamama şikayetleri genellikle kardiyoloji polikliniğinde değerlendirilir."
+kabızlık,Göz,kabızlık şikayetleri genellikle göz polikliniğinde değerlendirilir.
+kas seğirmesi,Üroloji,kas seğirmesi şikayetleri genellikle üroloji polikliniğinde değerlendirilir.
+ense ağrısı,Ortopedi,ense ağrısı şikayetleri genellikle ortopedi polikliniğinde değerlendirilir.
+"gözde sulanma, idrar yanması",Psikiyatri,"gözde sulanma, idrar yanması şikayetleri genellikle psikiyatri polikliniğinde değerlendirilir."
+"unutkanlık, nefes darlığı, ciltte kaşıntı",Ortopedi,"unutkanlık, nefes darlığı, ciltte kaşıntı şikayetleri genellikle ortopedi polikliniğinde değerlendirilir."
+"kulak çınlaması, omuz ağrısı",Kardiyoloji,"kulak çınlaması, omuz ağrısı şikayetleri genellikle kardiyoloji polikliniğinde değerlendirilir."
+"göz kızarıklığı, nefes darlığı",Ortopedi,"göz kızarıklığı, nefes darlığı şikayetleri genellikle ortopedi polikliniğinde değerlendirilir."
+"uykuya dalamama, unutkanlık",Enfeksiyon,"uykuya dalamama, unutkanlık şikayetleri genellikle enfeksiyon polikliniğinde değerlendirilir."
+kulakta ağrı,Ortopedi,kulakta ağrı şikayetleri genellikle ortopedi polikliniğinde değerlendirilir.
+"boğazda gıcık, göz kuruluğu",KBB,"boğazda gıcık, göz kuruluğu şikayetleri genellikle kbb polikliniğinde değerlendirilir."
+"el titremesi, yorgunluk, ayak şişmesi",Kardiyoloji,"el titremesi, yorgunluk, ayak şişmesi şikayetleri genellikle kardiyoloji polikliniğinde değerlendirilir."
+nefes almada zorluk,Fizik Tedavi,nefes almada zorluk şikayetleri genellikle fizik tedavi polikliniğinde değerlendirilir.
+"yüzde kızarma, göz kuruluğu",Cildiye,"yüzde kızarma, göz kuruluğu şikayetleri genellikle cildiye polikliniğinde değerlendirilir."
+"göz kızarıklığı, idrar yanması",Kardiyoloji,"göz kızarıklığı, idrar yanması şikayetleri genellikle kardiyoloji polikliniğinde değerlendirilir."
+göz kızarıklığı,Üroloji,göz kızarıklığı şikayetleri genellikle üroloji polikliniğinde değerlendirilir.
+"nefes kesilmesi, başta basınç hissi, idrar yanması",Kardiyoloji,"nefes kesilmesi, başta basınç hissi, idrar yanması şikayetleri genellikle kardiyoloji polikliniğinde değerlendirilir."
+"uykusuzluk, yüzde kızarma",KBB,"uykusuzluk, yüzde kızarma şikayetleri genellikle kbb polikliniğinde değerlendirilir."
+boğazda yanma,KBB,boğazda yanma şikayetleri genellikle kbb polikliniğinde değerlendirilir.
+yorgunluk,Ortopedi,yorgunluk şikayetleri genellikle ortopedi polikliniğinde değerlendirilir.
+karın ağrısı,Genel Cerrahi,karın ağrısı şikayetleri genellikle genel cerrahi polikliniğinde değerlendirilir.
+"konsantrasyon bozukluğu, karın ağrısı, omuz ağrısı",Psikiyatri,"konsantrasyon bozukluğu, karın ağrısı, omuz ağrısı şikayetleri genellikle psikiyatri polikliniğinde değerlendirilir."
+"kulakta ağrı, bel ağrısı",Psikiyatri,"kulakta ağrı, bel ağrısı şikayetleri genellikle psikiyatri polikliniğinde değerlendirilir."
+"uykuya dalamama, ciltte döküntü, hıçkırık",KBB,"uykuya dalamama, ciltte döküntü, hıçkırık şikayetleri genellikle kbb polikliniğinde değerlendirilir."
+"ellerde uyuşma, halsizlik, karın ağrısı",KBB,"ellerde uyuşma, halsizlik, karın ağrısı şikayetleri genellikle kbb polikliniğinde değerlendirilir."
+iştahsızlık,Ortopedi,iştahsızlık şikayetleri genellikle ortopedi polikliniğinde değerlendirilir.
+"göz kızarıklığı, uykusuzluk, ense ağrısı",Dahiliye,"göz kızarıklığı, uykusuzluk, ense ağrısı şikayetleri genellikle dahiliye polikliniğinde değerlendirilir."
+"kaygı hissi, karın ağrısı",Kadın Doğum,"kaygı hissi, karın ağrısı şikayetleri genellikle kadın doğum polikliniğinde değerlendirilir."
+"eklem ağrısı, ayak şişmesi, mide yanması",Kardiyoloji,"eklem ağrısı, ayak şişmesi, mide yanması şikayetleri genellikle kardiyoloji polikliniğinde değerlendirilir."
+burun tıkanıklığı,Endokrinoloji,burun tıkanıklığı şikayetleri genellikle endokrinoloji polikliniğinde değerlendirilir.
+uykusuzluk,Üroloji,uykusuzluk şikayetleri genellikle üroloji polikliniğinde değerlendirilir.
+uykusuzluk,Enfeksiyon,uykusuzluk şikayetleri genellikle enfeksiyon polikliniğinde değerlendirilir.
+"kalp çarpıntısı, boğazda yanma",Cildiye,"kalp çarpıntısı, boğazda yanma şikayetleri genellikle cildiye polikliniğinde değerlendirilir."
+"kulakta ağrı, uykuya dalamama",Kardiyoloji,"kulakta ağrı, uykuya dalamama şikayetleri genellikle kardiyoloji polikliniğinde değerlendirilir."
+karın şişliği,Üroloji,karın şişliği şikayetleri genellikle üroloji polikliniğinde değerlendirilir.
+"mide bulantısı, hıçkırık, eklem ağrısı",Endokrinoloji,"mide bulantısı, hıçkırık, eklem ağrısı şikayetleri genellikle endokrinoloji polikliniğinde değerlendirilir."
+bacakta kramp,Nöroloji,bacakta kramp şikayetleri genellikle nöroloji polikliniğinde değerlendirilir.
+"kabızlık, yorgunluk",Üroloji,"kabızlık, yorgunluk şikayetleri genellikle üroloji polikliniğinde değerlendirilir."
+"kas seğirmesi, hıçkırık, el titremesi",Psikiyatri,"kas seğirmesi, hıçkırık, el titremesi şikayetleri genellikle psikiyatri polikliniğinde değerlendirilir."
+nefes almada zorluk,Genel Cerrahi,nefes almada zorluk şikayetleri genellikle genel cerrahi polikliniğinde değerlendirilir.
+"göz kuruluğu, ellerde soğukluk",KBB,"göz kuruluğu, ellerde soğukluk şikayetleri genellikle kbb polikliniğinde değerlendirilir."
+"göz kızarıklığı, boğazda gıcık",Psikiyatri,"göz kızarıklığı, boğazda gıcık şikayetleri genellikle psikiyatri polikliniğinde değerlendirilir."
+"yorgunluk, burun tıkanıklığı, göz kızarıklığı",Kardiyoloji,"yorgunluk, burun tıkanıklığı, göz kızarıklığı şikayetleri genellikle kardiyoloji polikliniğinde değerlendirilir."
+bel ağrısı,Enfeksiyon,bel ağrısı şikayetleri genellikle enfeksiyon polikliniğinde değerlendirilir.
+"ense ağrısı, eklem ağrısı, uykuya dalamama",Göğüs Hastalıkları,"ense ağrısı, eklem ağrısı, uykuya dalamama şikayetleri genellikle göğüs hastalıkları polikliniğinde değerlendirilir."
+"karında sancı, bel ağrısı, ciltte kaşıntı",Cildiye,"karında sancı, bel ağrısı, ciltte kaşıntı şikayetleri genellikle cildiye polikliniğinde değerlendirilir."
+"gözde sulanma, boğazda gıcık",Nöroloji,"gözde sulanma, boğazda gıcık şikayetleri genellikle nöroloji polikliniğinde değerlendirilir."
+"göğüs ağrısı, ciltte döküntü, mide yanması",Kadın Doğum,"göğüs ağrısı, ciltte döküntü, mide yanması şikayetleri genellikle kadın doğum polikliniğinde değerlendirilir."
+"göz kızarıklığı, el titremesi, ense ağrısı",Üroloji,"göz kızarıklığı, el titremesi, ense ağrısı şikayetleri genellikle üroloji polikliniğinde değerlendirilir."
+"mide yanması, halsizlik",KBB,"mide yanması, halsizlik şikayetleri genellikle kbb polikliniğinde değerlendirilir."
+nefes almada zorluk,Nöroloji,nefes almada zorluk şikayetleri genellikle nöroloji polikliniğinde değerlendirilir.
+karında sancı,Ortopedi,karında sancı şikayetleri genellikle ortopedi polikliniğinde değerlendirilir.
+mide bulantısı,Genel Cerrahi,mide bulantısı şikayetleri genellikle genel cerrahi polikliniğinde değerlendirilir.
+"yorgunluk, nefes darlığı",Cildiye,"yorgunluk, nefes darlığı şikayetleri genellikle cildiye polikliniğinde değerlendirilir."
+yüzde kızarma,Cildiye,yüzde kızarma şikayetleri genellikle cildiye polikliniğinde değerlendirilir.
+"nefes darlığı, kulak çınlaması",Psikiyatri,"nefes darlığı, kulak çınlaması şikayetleri genellikle psikiyatri polikliniğinde değerlendirilir."
+uykuya dalamama,Kadın Doğum,uykuya dalamama şikayetleri genellikle kadın doğum polikliniğinde değerlendirilir.
+"el titremesi, uykusuzluk",Göz,"el titremesi, uykusuzluk şikayetleri genellikle göz polikliniğinde değerlendirilir."
+"kulak çınlaması, idrar yanması, iştahsızlık",Endokrinoloji,"kulak çınlaması, idrar yanması, iştahsızlık şikayetleri genellikle endokrinoloji polikliniğinde değerlendirilir."
+"ense ağrısı, kas seğirmesi, uykusuzluk",Göz,"ense ağrısı, kas seğirmesi, uykusuzluk şikayetleri genellikle göz polikliniğinde değerlendirilir."
+"el titremesi, unutkanlık",Endokrinoloji,"el titremesi, unutkanlık şikayetleri genellikle endokrinoloji polikliniğinde değerlendirilir."
+göz kızarıklığı,Kardiyoloji,göz kızarıklığı şikayetleri genellikle kardiyoloji polikliniğinde değerlendirilir.
+"ense ağrısı, eklem ağrısı",Cildiye,"ense ağrısı, eklem ağrısı şikayetleri genellikle cildiye polikliniğinde değerlendirilir."
+"ateş, yorgunluk, ellerde morarma",Nöroloji,"ateş, yorgunluk, ellerde morarma şikayetleri genellikle nöroloji polikliniğinde değerlendirilir."
+"mide bulantısı, ciltte döküntü, başta basınç hissi",Fizik Tedavi,"mide bulantısı, ciltte döküntü, başta basınç hissi şikayetleri genellikle fizik tedavi polikliniğinde değerlendirilir."
+konsantrasyon bozukluğu,Cildiye,konsantrasyon bozukluğu şikayetleri genellikle cildiye polikliniğinde değerlendirilir.
+"ense ağrısı, halsizlik, boğazda gıcık",Üroloji,"ense ağrısı, halsizlik, boğazda gıcık şikayetleri genellikle üroloji polikliniğinde değerlendirilir."
+yorgunluk,KBB,yorgunluk şikayetleri genellikle kbb polikliniğinde değerlendirilir.
+"omuz ağrısı, el titremesi, konsantrasyon bozukluğu",Kadın Doğum,"omuz ağrısı, el titremesi, konsantrasyon bozukluğu şikayetleri genellikle kadın doğum polikliniğinde değerlendirilir."
+kulak çınlaması,Nöroloji,kulak çınlaması şikayetleri genellikle nöroloji polikliniğinde değerlendirilir.
+"hıçkırık, boğazda gıcık, mide bulantısı",Psikiyatri,"hıçkırık, boğazda gıcık, mide bulantısı şikayetleri genellikle psikiyatri polikliniğinde değerlendirilir."
+göğüs ağrısı,Kardiyoloji,göğüs ağrısı şikayetleri genellikle kardiyoloji polikliniğinde değerlendirilir.
+"ayak şişmesi, karın şişliği",Psikiyatri,"ayak şişmesi, karın şişliği şikayetleri genellikle psikiyatri polikliniğinde değerlendirilir."
+"aşırı terleme, ayak şişmesi",Nöroloji,"aşırı terleme, ayak şişmesi şikayetleri genellikle nöroloji polikliniğinde değerlendirilir."
+mide bulantısı,Göz,mide bulantısı şikayetleri genellikle göz polikliniğinde değerlendirilir.
+hıçkırık,Psikiyatri,hıçkırık şikayetleri genellikle psikiyatri polikliniğinde değerlendirilir.
+"ellerde morarma, nefes kesilmesi",Üroloji,"ellerde morarma, nefes kesilmesi şikayetleri genellikle üroloji polikliniğinde değerlendirilir."
+"hıçkırık, mide bulantısı, ciltte döküntü",Cildiye,"hıçkırık, mide bulantısı, ciltte döküntü şikayetleri genellikle cildiye polikliniğinde değerlendirilir."
+burun tıkanıklığı,Ortopedi,burun tıkanıklığı şikayetleri genellikle ortopedi polikliniğinde değerlendirilir.
+"nefes darlığı, kabızlık, gözde sulanma",Psikiyatri,"nefes darlığı, kabızlık, gözde sulanma şikayetleri genellikle psikiyatri polikliniğinde değerlendirilir."
+"ellerde uyuşma, ateş, sırt ağrısı",Cildiye,"ellerde uyuşma, ateş, sırt ağrısı şikayetleri genellikle cildiye polikliniğinde değerlendirilir."
+karında sancı,Nöroloji,karında sancı şikayetleri genellikle nöroloji polikliniğinde değerlendirilir.
+nefes kesilmesi,Göz,nefes kesilmesi şikayetleri genellikle göz polikliniğinde değerlendirilir.
+"unutkanlık, eklem ağrısı",Kadın Doğum,"unutkanlık, eklem ağrısı şikayetleri genellikle kadın doğum polikliniğinde değerlendirilir."
+"konsantrasyon bozukluğu, mide bulantısı, başta basınç hissi",Üroloji,"konsantrasyon bozukluğu, mide bulantısı, başta basınç hissi şikayetleri genellikle üroloji polikliniğinde değerlendirilir."
+"bel ağrısı, kalp çarpıntısı",Endokrinoloji,"bel ağrısı, kalp çarpıntısı şikayetleri genellikle endokrinoloji polikliniğinde değerlendirilir."
+uykusuzluk,Fizik Tedavi,uykusuzluk şikayetleri genellikle fizik tedavi polikliniğinde değerlendirilir.
+kalp çarpıntısı,Ortopedi,kalp çarpıntısı şikayetleri genellikle ortopedi polikliniğinde değerlendirilir.
+"mide bulantısı, hıçkırık",Kadın Doğum,"mide bulantısı, hıçkırık şikayetleri genellikle kadın doğum polikliniğinde değerlendirilir."
+ateş,KBB,ateş şikayetleri genellikle kbb polikliniğinde değerlendirilir.
+"iştahsızlık, ciltte kaşıntı, nefes darlığı",Cildiye,"iştahsızlık, ciltte kaşıntı, nefes darlığı şikayetleri genellikle cildiye polikliniğinde değerlendirilir."
+ense ağrısı,Enfeksiyon,ense ağrısı şikayetleri genellikle enfeksiyon polikliniğinde değerlendirilir.
+"kulakta ağrı, kalp çarpıntısı",Endokrinoloji,"kulakta ağrı, kalp çarpıntısı şikayetleri genellikle endokrinoloji polikliniğinde değerlendirilir."
+"ishal, baş dönmesi, bacakta kramp",Dahiliye,"ishal, baş dönmesi, bacakta kramp şikayetleri genellikle dahiliye polikliniğinde değerlendirilir."
+"ense ağrısı, idrar yanması, boğazda yanma",Endokrinoloji,"ense ağrısı, idrar yanması, boğazda yanma şikayetleri genellikle endokrinoloji polikliniğinde değerlendirilir."
+"eklem ağrısı, göz kuruluğu",KBB,"eklem ağrısı, göz kuruluğu şikayetleri genellikle kbb polikliniğinde değerlendirilir."
+"mide yanması, gözde sulanma, ciltte döküntü",Cildiye,"mide yanması, gözde sulanma, ciltte döküntü şikayetleri genellikle cildiye polikliniğinde değerlendirilir."
+ciltte döküntü,Göz,ciltte döküntü şikayetleri genellikle göz polikliniğinde değerlendirilir.
+"ellerde soğukluk, halsizlik",Üroloji,"ellerde soğukluk, halsizlik şikayetleri genellikle üroloji polikliniğinde değerlendirilir."
+"kabızlık, ellerde morarma",Üroloji,"kabızlık, ellerde morarma şikayetleri genellikle üroloji polikliniğinde değerlendirilir."
+"el titremesi, yüzde kızarma",Genel Cerrahi,"el titremesi, yüzde kızarma şikayetleri genellikle genel cerrahi polikliniğinde değerlendirilir."
+ellerde morarma,Dahiliye,ellerde morarma şikayetleri genellikle dahiliye polikliniğinde değerlendirilir.
+"baş dönmesi, kalp çarpıntısı, mide bulantısı",Cildiye,"baş dönmesi, kalp çarpıntısı, mide bulantısı şikayetleri genellikle cildiye polikliniğinde değerlendirilir."
+"boğazda gıcık, kas seğirmesi, göz kuruluğu",Göz,"boğazda gıcık, kas seğirmesi, göz kuruluğu şikayetleri genellikle göz polikliniğinde değerlendirilir."
+göğüs ağrısı,Cildiye,göğüs ağrısı şikayetleri genellikle cildiye polikliniğinde değerlendirilir.
+"ciltte kaşıntı, karın ağrısı",Üroloji,"ciltte kaşıntı, karın ağrısı şikayetleri genellikle üroloji polikliniğinde değerlendirilir."
+mide yanması,Göğüs Hastalıkları,mide yanması şikayetleri genellikle göğüs hastalıkları polikliniğinde değerlendirilir.
+kalp çarpıntısı,Endokrinoloji,kalp çarpıntısı şikayetleri genellikle endokrinoloji polikliniğinde değerlendirilir.
+"göğüs ağrısı, üşüme, göz kuruluğu",Cildiye,"göğüs ağrısı, üşüme, göz kuruluğu şikayetleri genellikle cildiye polikliniğinde değerlendirilir."
+"yorgunluk, nefes darlığı",Fizik Tedavi,"yorgunluk, nefes darlığı şikayetleri genellikle fizik tedavi polikliniğinde değerlendirilir."
+"yorgunluk, sırt ağrısı, aşırı terleme",Genel Cerrahi,"yorgunluk, sırt ağrısı, aşırı terleme şikayetleri genellikle genel cerrahi polikliniğinde değerlendirilir."
+"karın ağrısı, üşüme",Dahiliye,"karın ağrısı, üşüme şikayetleri genellikle dahiliye polikliniğinde değerlendirilir."
+"aşırı terleme, hıçkırık",Cildiye,"aşırı terleme, hıçkırık şikayetleri genellikle cildiye polikliniğinde değerlendirilir."
+"karın şişliği, omuz ağrısı",Endokrinoloji,"karın şişliği, omuz ağrısı şikayetleri genellikle endokrinoloji polikliniğinde değerlendirilir."
+"göz kızarıklığı, hıçkırık, ayak şişmesi",Ortopedi,"göz kızarıklığı, hıçkırık, ayak şişmesi şikayetleri genellikle ortopedi polikliniğinde değerlendirilir."
+kalp çarpıntısı,Fizik Tedavi,kalp çarpıntısı şikayetleri genellikle fizik tedavi polikliniğinde değerlendirilir.
+konsantrasyon bozukluğu,Endokrinoloji,konsantrasyon bozukluğu şikayetleri genellikle endokrinoloji polikliniğinde değerlendirilir.
+"kabızlık, bel ağrısı, nefes kesilmesi",Göz,"kabızlık, bel ağrısı, nefes kesilmesi şikayetleri genellikle göz polikliniğinde değerlendirilir."
+göz kızarıklığı,Enfeksiyon,göz kızarıklığı şikayetleri genellikle enfeksiyon polikliniğinde değerlendirilir.
+"yorgunluk, kalp çarpıntısı",Göğüs Hastalıkları,"yorgunluk, kalp çarpıntısı şikayetleri genellikle göğüs hastalıkları polikliniğinde değerlendirilir."
+"boğazda yanma, mide yanması, el titremesi",Genel Cerrahi,"boğazda yanma, mide yanması, el titremesi şikayetleri genellikle genel cerrahi polikliniğinde değerlendirilir."
+"göz kuruluğu, ciltte kaşıntı, konsantrasyon bozukluğu",Kadın Doğum,"göz kuruluğu, ciltte kaşıntı, konsantrasyon bozukluğu şikayetleri genellikle kadın doğum polikliniğinde değerlendirilir."
+nefes kesilmesi,Cildiye,nefes kesilmesi şikayetleri genellikle cildiye polikliniğinde değerlendirilir.
+"uykusuzluk, kas seğirmesi, ishal",Kardiyoloji,"uykusuzluk, kas seğirmesi, ishal şikayetleri genellikle kardiyoloji polikliniğinde değerlendirilir."
+karında sancı,Kadın Doğum,karında sancı şikayetleri genellikle kadın doğum polikliniğinde değerlendirilir.
+"kulakta ağrı, göz kuruluğu",Göğüs Hastalıkları,"kulakta ağrı, göz kuruluğu şikayetleri genellikle göğüs hastalıkları polikliniğinde değerlendirilir."
+"ellerde morarma, üşüme",Ortopedi,"ellerde morarma, üşüme şikayetleri genellikle ortopedi polikliniğinde değerlendirilir."
+"ellerde soğukluk, aşırı terleme",Enfeksiyon,"ellerde soğukluk, aşırı terleme şikayetleri genellikle enfeksiyon polikliniğinde değerlendirilir."
+"ciltte kaşıntı, boğazda gıcık",Kardiyoloji,"ciltte kaşıntı, boğazda gıcık şikayetleri genellikle kardiyoloji polikliniğinde değerlendirilir."
+"aşırı terleme, uykusuzluk, üşüme",Göz,"aşırı terleme, uykusuzluk, üşüme şikayetleri genellikle göz polikliniğinde değerlendirilir."
+"kabızlık, kalp çarpıntısı, nefes kesilmesi",Üroloji,"kabızlık, kalp çarpıntısı, nefes kesilmesi şikayetleri genellikle üroloji polikliniğinde değerlendirilir."
+"uykuya dalamama, kabızlık, iştahsızlık",Ortopedi,"uykuya dalamama, kabızlık, iştahsızlık şikayetleri genellikle ortopedi polikliniğinde değerlendirilir."
+uykuya dalamama,Ortopedi,uykuya dalamama şikayetleri genellikle ortopedi polikliniğinde değerlendirilir.
+"uykuya dalamama, ishal",Dahiliye,"uykuya dalamama, ishal şikayetleri genellikle dahiliye polikliniğinde değerlendirilir."
+"üşüme, boğazda gıcık",Nöroloji,"üşüme, boğazda gıcık şikayetleri genellikle nöroloji polikliniğinde değerlendirilir."
+burun tıkanıklığı,Ortopedi,burun tıkanıklığı şikayetleri genellikle ortopedi polikliniğinde değerlendirilir.
+"baş dönmesi, mide yanması",Göz,"baş dönmesi, mide yanması şikayetleri genellikle göz polikliniğinde değerlendirilir."
+"hıçkırık, halsizlik, ciltte döküntü",Göğüs Hastalıkları,"hıçkırık, halsizlik, ciltte döküntü şikayetleri genellikle göğüs hastalıkları polikliniğinde değerlendirilir."
+iştahsızlık,Dahiliye,iştahsızlık şikayetleri genellikle dahiliye polikliniğinde değerlendirilir.
+kulakta ağrı,Cildiye,kulakta ağrı şikayetleri genellikle cildiye polikliniğinde değerlendirilir.
+"ateş, başta basınç hissi",KBB,"ateş, başta basınç hissi şikayetleri genellikle kbb polikliniğinde değerlendirilir."
+el titremesi,Endokrinoloji,el titremesi şikayetleri genellikle endokrinoloji polikliniğinde değerlendirilir.
+bacakta kramp,Kardiyoloji,bacakta kramp şikayetleri genellikle kardiyoloji polikliniğinde değerlendirilir.
+karında sancı,Göz,karında sancı şikayetleri genellikle göz polikliniğinde değerlendirilir.
+"boğazda gıcık, boğazda yanma",Ortopedi,"boğazda gıcık, boğazda yanma şikayetleri genellikle ortopedi polikliniğinde değerlendirilir."
+"karın ağrısı, nefes kesilmesi, ayak şişmesi",Psikiyatri,"karın ağrısı, nefes kesilmesi, ayak şişmesi şikayetleri genellikle psikiyatri polikliniğinde değerlendirilir."
+"ellerde morarma, nefes almada zorluk, idrar yanması",Fizik Tedavi,"ellerde morarma, nefes almada zorluk, idrar yanması şikayetleri genellikle fizik tedavi polikliniğinde değerlendirilir."
+"kabızlık, karında sancı, kalp çarpıntısı",Üroloji,"kabızlık, karında sancı, kalp çarpıntısı şikayetleri genellikle üroloji polikliniğinde değerlendirilir."
+"kalp çarpıntısı, göğüs ağrısı",Göz,"kalp çarpıntısı, göğüs ağrısı şikayetleri genellikle göz polikliniğinde değerlendirilir."
+iştahsızlık,Fizik Tedavi,iştahsızlık şikayetleri genellikle fizik tedavi polikliniğinde değerlendirilir.
+"karın ağrısı, konsantrasyon bozukluğu, bacakta kramp",Cildiye,"karın ağrısı, konsantrasyon bozukluğu, bacakta kramp şikayetleri genellikle cildiye polikliniğinde değerlendirilir."
+omuz ağrısı,Üroloji,omuz ağrısı şikayetleri genellikle üroloji polikliniğinde değerlendirilir.
+"omuz ağrısı, göğüs ağrısı",Kardiyoloji,"omuz ağrısı, göğüs ağrısı şikayetleri genellikle kardiyoloji polikliniğinde değerlendirilir."
+kas seğirmesi,Kardiyoloji,kas seğirmesi şikayetleri genellikle kardiyoloji polikliniğinde değerlendirilir.
+"nefes almada zorluk, unutkanlık",Enfeksiyon,"nefes almada zorluk, unutkanlık şikayetleri genellikle enfeksiyon polikliniğinde değerlendirilir."
+göz kuruluğu,Kardiyoloji,göz kuruluğu şikayetleri genellikle kardiyoloji polikliniğinde değerlendirilir.
+"boğazda yanma, omuz ağrısı",Dahiliye,"boğazda yanma, omuz ağrısı şikayetleri genellikle dahiliye polikliniğinde değerlendirilir."
+kas seğirmesi,Göz,kas seğirmesi şikayetleri genellikle göz polikliniğinde değerlendirilir.
+"burun tıkanıklığı, boğazda gıcık, iştahsızlık",Göz,"burun tıkanıklığı, boğazda gıcık, iştahsızlık şikayetleri genellikle göz polikliniğinde değerlendirilir."
+ayak şişmesi,KBB,ayak şişmesi şikayetleri genellikle kbb polikliniğinde değerlendirilir.
+"gözde sulanma, ellerde morarma, bacakta kramp",Göğüs Hastalıkları,"gözde sulanma, ellerde morarma, bacakta kramp şikayetleri genellikle göğüs hastalıkları polikliniğinde değerlendirilir."
+"kulak çınlaması, ciltte kaşıntı, uykuya dalamama",Fizik Tedavi,"kulak çınlaması, ciltte kaşıntı, uykuya dalamama şikayetleri genellikle fizik tedavi polikliniğinde değerlendirilir."
+"uykuya dalamama, kulak çınlaması, eklem ağrısı",Dahiliye,"uykuya dalamama, kulak çınlaması, eklem ağrısı şikayetleri genellikle dahiliye polikliniğinde değerlendirilir."
+"ellerde soğukluk, eklem ağrısı, sırt ağrısı",Psikiyatri,"ellerde soğukluk, eklem ağrısı, sırt ağrısı şikayetleri genellikle psikiyatri polikliniğinde değerlendirilir."
+ense ağrısı,Ortopedi,ense ağrısı şikayetleri genellikle ortopedi polikliniğinde değerlendirilir.
+"göz kuruluğu, aşırı terleme",Göz,"göz kuruluğu, aşırı terleme şikayetleri genellikle göz polikliniğinde değerlendirilir."
+"ishal, göğüs ağrısı",Üroloji,"ishal, göğüs ağrısı şikayetleri genellikle üroloji polikliniğinde değerlendirilir."
+"ciltte kaşıntı, kulak çınlaması",Cildiye,"ciltte kaşıntı, kulak çınlaması şikayetleri genellikle cildiye polikliniğinde değerlendirilir."
+idrar yanması,Cildiye,idrar yanması şikayetleri genellikle cildiye polikliniğinde değerlendirilir.
+"göz kızarıklığı, idrar yanması, aşırı terleme",Fizik Tedavi,"göz kızarıklığı, idrar yanması, aşırı terleme şikayetleri genellikle fizik tedavi polikliniğinde değerlendirilir."
+başta basınç hissi,Nöroloji,başta basınç hissi şikayetleri genellikle nöroloji polikliniğinde değerlendirilir.
+"karın şişliği, göz kızarıklığı",KBB,"karın şişliği, göz kızarıklığı şikayetleri genellikle kbb polikliniğinde değerlendirilir."
+"kas seğirmesi, ishal",Kadın Doğum,"kas seğirmesi, ishal şikayetleri genellikle kadın doğum polikliniğinde değerlendirilir."
+"ellerde morarma, ellerde uyuşma",Fizik Tedavi,"ellerde morarma, ellerde uyuşma şikayetleri genellikle fizik tedavi polikliniğinde değerlendirilir."
+"ayak şişmesi, burun tıkanıklığı, ishal",Dahiliye,"ayak şişmesi, burun tıkanıklığı, ishal şikayetleri genellikle dahiliye polikliniğinde değerlendirilir."
+"kaygı hissi, boğazda yanma, nefes kesilmesi",Psikiyatri,"kaygı hissi, boğazda yanma, nefes kesilmesi şikayetleri genellikle psikiyatri polikliniğinde değerlendirilir."
+kalp çarpıntısı,Göz,kalp çarpıntısı şikayetleri genellikle göz polikliniğinde değerlendirilir.
+boğazda gıcık,Dahiliye,boğazda gıcık şikayetleri genellikle dahiliye polikliniğinde değerlendirilir.
+"omuz ağrısı, kulakta ağrı, karın ağrısı",Göz,"omuz ağrısı, kulakta ağrı, karın ağrısı şikayetleri genellikle göz polikliniğinde değerlendirilir."
+ateş,Cildiye,ateş şikayetleri genellikle cildiye polikliniğinde değerlendirilir.
+kabızlık,Cildiye,kabızlık şikayetleri genellikle cildiye polikliniğinde değerlendirilir.
+mide bulantısı,Enfeksiyon,mide bulantısı şikayetleri genellikle enfeksiyon polikliniğinde değerlendirilir.
+"hıçkırık, karında sancı, ciltte döküntü",Cildiye,"hıçkırık, karında sancı, ciltte döküntü şikayetleri genellikle cildiye polikliniğinde değerlendirilir."
+"mide yanması, kulak çınlaması, yorgunluk",Enfeksiyon,"mide yanması, kulak çınlaması, yorgunluk şikayetleri genellikle enfeksiyon polikliniğinde değerlendirilir."
+burun tıkanıklığı,Dahiliye,burun tıkanıklığı şikayetleri genellikle dahiliye polikliniğinde değerlendirilir.
+"uykusuzluk, bel ağrısı",KBB,"uykusuzluk, bel ağrısı şikayetleri genellikle kbb polikliniğinde değerlendirilir."
+"ishal, karında sancı",Cildiye,"ishal, karında sancı şikayetleri genellikle cildiye polikliniğinde değerlendirilir."
+"omuz ağrısı, boğazda gıcık, burun tıkanıklığı",Göğüs Hastalıkları,"omuz ağrısı, boğazda gıcık, burun tıkanıklığı şikayetleri genellikle göğüs hastalıkları polikliniğinde değerlendirilir."
+"kaygı hissi, ciltte kaşıntı",Dahiliye,"kaygı hissi, ciltte kaşıntı şikayetleri genellikle dahiliye polikliniğinde değerlendirilir."
+"üşüme, ense ağrısı, ellerde soğukluk",Endokrinoloji,"üşüme, ense ağrısı, ellerde soğukluk şikayetleri genellikle endokrinoloji polikliniğinde değerlendirilir."
+ellerde uyuşma,Enfeksiyon,ellerde uyuşma şikayetleri genellikle enfeksiyon polikliniğinde değerlendirilir.
+ayak şişmesi,Nöroloji,ayak şişmesi şikayetleri genellikle nöroloji polikliniğinde değerlendirilir.
+"göz kızarıklığı, boğazda yanma",Dahiliye,"göz kızarıklığı, boğazda yanma şikayetleri genellikle dahiliye polikliniğinde değerlendirilir."
+baş dönmesi,Enfeksiyon,baş dönmesi şikayetleri genellikle enfeksiyon polikliniğinde değerlendirilir.
+nefes darlığı,Göğüs Hastalıkları,nefes darlığı şikayetleri genellikle göğüs hastalıkları polikliniğinde değerlendirilir.
+"ayak şişmesi, konsantrasyon bozukluğu, nefes almada zorluk",Üroloji,"ayak şişmesi, konsantrasyon bozukluğu, nefes almada zorluk şikayetleri genellikle üroloji polikliniğinde değerlendirilir."
+göz kızarıklığı,Endokrinoloji,göz kızarıklığı şikayetleri genellikle endokrinoloji polikliniğinde değerlendirilir.
+"nefes kesilmesi, kulak çınlaması, el titremesi",Ortopedi,"nefes kesilmesi, kulak çınlaması, el titremesi şikayetleri genellikle ortopedi polikliniğinde değerlendirilir."
+boğazda gıcık,Fizik Tedavi,boğazda gıcık şikayetleri genellikle fizik tedavi polikliniğinde değerlendirilir.
+"idrar yanması, baş dönmesi, ense ağrısı",KBB,"idrar yanması, baş dönmesi, ense ağrısı şikayetleri genellikle kbb polikliniğinde değerlendirilir."
+"ellerde morarma, karında sancı, hıçkırık",Cildiye,"ellerde morarma, karında sancı, hıçkırık şikayetleri genellikle cildiye polikliniğinde değerlendirilir."
+"omuz ağrısı, nefes almada zorluk",Psikiyatri,"omuz ağrısı, nefes almada zorluk şikayetleri genellikle psikiyatri polikliniğinde değerlendirilir."
+"ellerde morarma, ciltte kaşıntı, göz kuruluğu",Fizik Tedavi,"ellerde morarma, ciltte kaşıntı, göz kuruluğu şikayetleri genellikle fizik tedavi polikliniğinde değerlendirilir."
+nefes almada zorluk,Genel Cerrahi,nefes almada zorluk şikayetleri genellikle genel cerrahi polikliniğinde değerlendirilir.
+"ciltte kaşıntı, yüzde kızarma",Cildiye,"ciltte kaşıntı, yüzde kızarma şikayetleri genellikle cildiye polikliniğinde değerlendirilir."
+kulakta ağrı,Dahiliye,kulakta ağrı şikayetleri genellikle dahiliye polikliniğinde değerlendirilir.
+"yüzde kızarma, nefes kesilmesi, uykusuzluk",Kadın Doğum,"yüzde kızarma, nefes kesilmesi, uykusuzluk şikayetleri genellikle kadın doğum polikliniğinde değerlendirilir."
+"karın ağrısı, bel ağrısı, nefes darlığı",Göz,"karın ağrısı, bel ağrısı, nefes darlığı şikayetleri genellikle göz polikliniğinde değerlendirilir."
+"uykuya dalamama, uykusuzluk",Göz,"uykuya dalamama, uykusuzluk şikayetleri genellikle göz polikliniğinde değerlendirilir."
+"kaygı hissi, karın şişliği, ellerde soğukluk",Göğüs Hastalıkları,"kaygı hissi, karın şişliği, ellerde soğukluk şikayetleri genellikle göğüs hastalıkları polikliniğinde değerlendirilir."
+"ellerde morarma, göz kuruluğu, aşırı terleme",Genel Cerrahi,"ellerde morarma, göz kuruluğu, aşırı terleme şikayetleri genellikle genel cerrahi polikliniğinde değerlendirilir."
+"ciltte döküntü, baş dönmesi, ishal",Enfeksiyon,"ciltte döküntü, baş dönmesi, ishal şikayetleri genellikle enfeksiyon polikliniğinde değerlendirilir."
+"boğazda yanma, sırt ağrısı",Enfeksiyon,"boğazda yanma, sırt ağrısı şikayetleri genellikle enfeksiyon polikliniğinde değerlendirilir."
+"ellerde uyuşma, ayak şişmesi",Göğüs Hastalıkları,"ellerde uyuşma, ayak şişmesi şikayetleri genellikle göğüs hastalıkları polikliniğinde değerlendirilir."
+göz kızarıklığı,Ortopedi,göz kızarıklığı şikayetleri genellikle ortopedi polikliniğinde değerlendirilir.
+"unutkanlık, hıçkırık",Üroloji,"unutkanlık, hıçkırık şikayetleri genellikle üroloji polikliniğinde değerlendirilir."
+kulakta ağrı,Üroloji,kulakta ağrı şikayetleri genellikle üroloji polikliniğinde değerlendirilir.
+göz kızarıklığı,Psikiyatri,göz kızarıklığı şikayetleri genellikle psikiyatri polikliniğinde değerlendirilir.
+"uykusuzluk, unutkanlık",Göğüs Hastalıkları,"uykusuzluk, unutkanlık şikayetleri genellikle göğüs hastalıkları polikliniğinde değerlendirilir."
+"kulakta ağrı, burun tıkanıklığı, kalp çarpıntısı",Kadın Doğum,"kulakta ağrı, burun tıkanıklığı, kalp çarpıntısı şikayetleri genellikle kadın doğum polikliniğinde değerlendirilir."
+göğüs ağrısı,Kadın Doğum,göğüs ağrısı şikayetleri genellikle kadın doğum polikliniğinde değerlendirilir.
+"ellerde morarma, boğazda gıcık, uykuya dalamama",Üroloji,"ellerde morarma, boğazda gıcık, uykuya dalamama şikayetleri genellikle üroloji polikliniğinde değerlendirilir."
+burun tıkanıklığı,Psikiyatri,burun tıkanıklığı şikayetleri genellikle psikiyatri polikliniğinde değerlendirilir.
+"nefes darlığı, burun tıkanıklığı",Üroloji,"nefes darlığı, burun tıkanıklığı şikayetleri genellikle üroloji polikliniğinde değerlendirilir."
+"gözde sulanma, mide bulantısı, başta basınç hissi",Psikiyatri,"gözde sulanma, mide bulantısı, başta basınç hissi şikayetleri genellikle psikiyatri polikliniğinde değerlendirilir."
+"iştahsızlık, göz kızarıklığı, eklem ağrısı",Göz,"iştahsızlık, göz kızarıklığı, eklem ağrısı şikayetleri genellikle göz polikliniğinde değerlendirilir."
+"kabızlık, karın şişliği",Endokrinoloji,"kabızlık, karın şişliği şikayetleri genellikle endokrinoloji polikliniğinde değerlendirilir."
+"ellerde morarma, burun tıkanıklığı",KBB,"ellerde morarma, burun tıkanıklığı şikayetleri genellikle kbb polikliniğinde değerlendirilir."
+ciltte döküntü,Cildiye,ciltte döküntü şikayetleri genellikle cildiye polikliniğinde değerlendirilir.
+"gözde sulanma, ishal",Endokrinoloji,"gözde sulanma, ishal şikayetleri genellikle endokrinoloji polikliniğinde değerlendirilir."
+"uykusuzluk, yüzde kızarma, ateş",Fizik Tedavi,"uykusuzluk, yüzde kızarma, ateş şikayetleri genellikle fizik tedavi polikliniğinde değerlendirilir."
+ellerde soğukluk,Fizik Tedavi,ellerde soğukluk şikayetleri genellikle fizik tedavi polikliniğinde değerlendirilir.
+"karın şişliği, yüzde kızarma",Kadın Doğum,"karın şişliği, yüzde kızarma şikayetleri genellikle kadın doğum polikliniğinde değerlendirilir."
+kaygı hissi,Ortopedi,kaygı hissi şikayetleri genellikle ortopedi polikliniğinde değerlendirilir.
+aşırı terleme,Genel Cerrahi,aşırı terleme şikayetleri genellikle genel cerrahi polikliniğinde değerlendirilir.
+"üşüme, bel ağrısı",Dahiliye,"üşüme, bel ağrısı şikayetleri genellikle dahiliye polikliniğinde değerlendirilir."
+"ishal, üşüme",Endokrinoloji,"ishal, üşüme şikayetleri genellikle endokrinoloji polikliniğinde değerlendirilir."
+"üşüme, eklem ağrısı, nefes darlığı",Dahiliye,"üşüme, eklem ağrısı, nefes darlığı şikayetleri genellikle dahiliye polikliniğinde değerlendirilir."
+"göz kuruluğu, yüzde kızarma, gözde sulanma",Fizik Tedavi,"göz kuruluğu, yüzde kızarma, gözde sulanma şikayetleri genellikle fizik tedavi polikliniğinde değerlendirilir."
+mide yanması,KBB,mide yanması şikayetleri genellikle kbb polikliniğinde değerlendirilir.
+"sırt ağrısı, nefes darlığı",Genel Cerrahi,"sırt ağrısı, nefes darlığı şikayetleri genellikle genel cerrahi polikliniğinde değerlendirilir."
+"ciltte kaşıntı, nefes almada zorluk, konsantrasyon bozukluğu",Göğüs Hastalıkları,"ciltte kaşıntı, nefes almada zorluk, konsantrasyon bozukluğu şikayetleri genellikle göğüs hastalıkları polikliniğinde değerlendirilir."
+"nefes almada zorluk, ellerde uyuşma",Fizik Tedavi,"nefes almada zorluk, ellerde uyuşma şikayetleri genellikle fizik tedavi polikliniğinde değerlendirilir."
+uykuya dalamama,Dahiliye,uykuya dalamama şikayetleri genellikle dahiliye polikliniğinde değerlendirilir.
+"eklem ağrısı, üşüme, gözde sulanma",Dahiliye,"eklem ağrısı, üşüme, gözde sulanma şikayetleri genellikle dahiliye polikliniğinde değerlendirilir."
+"kalp çarpıntısı, kabızlık, göz kuruluğu",Kadın Doğum,"kalp çarpıntısı, kabızlık, göz kuruluğu şikayetleri genellikle kadın doğum polikliniğinde değerlendirilir."
+yorgunluk,Göğüs Hastalıkları,yorgunluk şikayetleri genellikle göğüs hastalıkları polikliniğinde değerlendirilir.
+nefes darlığı,Kadın Doğum,nefes darlığı şikayetleri genellikle kadın doğum polikliniğinde değerlendirilir.
+"halsizlik, nefes almada zorluk, göz kızarıklığı",Göğüs Hastalıkları,"halsizlik, nefes almada zorluk, göz kızarıklığı şikayetleri genellikle göğüs hastalıkları polikliniğinde değerlendirilir."
+"ciltte döküntü, ellerde morarma",Enfeksiyon,"ciltte döküntü, ellerde morarma şikayetleri genellikle enfeksiyon polikliniğinde değerlendirilir."
